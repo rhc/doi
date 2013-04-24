@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<study xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=" dara_v2.2.1_de_en_19112012.xsd">
+  <resourceType>2</resourceType>
+  <studyIdentifier>
+    <identifier>INDEPTH.ZA031.1</identifier>
+    <currentVersion>1</currentVersion>
+  </studyIdentifier>
+  <titles>
+    <title>
+      <language>en</language>
+      <titleName>
+        Africa Centre INDEPTH Core Dataset 2000-2010 (Residents only)
+      </titleName>
+    </title>
+  </titles>
+  <principalInvestigators>
+    <principalInvestigator>
+      <person>
+        <firstName>
+          Marie-Louise
+        </firstName>
+        <middleName>
+      </middleName>
+        <lastName>Newell</lastName>
+      </person>
+    </principalInvestigator>
+    <principalInvestigator>
+      <person>
+        <firstName>
+          Kobus
+        </firstName>
+        <middleName>
+      </middleName>
+        <lastName>Herbst</lastName>
+      </person>
+    </principalInvestigator>
+    <principalInvestigator>
+      <institution>
+        <institutionName>
+          <language>en</language>
+          <name>Africa Centre (ZA031)</name>
+        </institutionName>
+      </institution>
+    </principalInvestigator>
+  </principalInvestigators>
+  <dataURLs>
+    <dataURL>
+      http://www.indepth-network.org
+    </dataURL>
+  </dataURLs>
+  <doiProposal>
+    10.5072/INDEPTH.ZA031.1
+  </doiProposal>
+  <publicationDate>
+    <date>2012-11-05</date>
+  </publicationDate>
+  <availability>
+    <availabilityControlled>3</availabilityControlled>
+  </availability>
+</study>

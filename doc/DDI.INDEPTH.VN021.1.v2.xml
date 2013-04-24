@@ -1,0 +1,1272 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codeBook version="1.2.2" ID="INDEPTH.VN021.1.v2" xml-lang="en" xmlns="http://www.icpsr.umich.edu/DDI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.icpsr.umich.edu/DDI http://www.icpsr.umich.edu/DDI/Version1-2-2.xsd">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>
+          Chillilab INDEPTH Core Dataset 2004-2012
+        </titl>
+        <IDNo>
+          DDI.INDEPTH.VN021.v4
+        </IDNo>
+      </titlStmt>
+      <rspStmt>
+        <othId role="Documentation of the study" affiliation="Chililab - Hanoi School of Pulic Health">
+          <p>
+            Pham Viet Cuong
+          </p>
+        </othId>
+        <othId role="Review of  documentation" affiliation="Chililab - Hanoi School of Pulic Health">
+          <p>
+            Tran Huu Bich
+          </p>
+        </othId>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="VN021" affiliation="Hanoi School of Public Health" role="Documentation of the study">
+          Chililab Data Documentation
+        </producer>
+        <prodDate date="2013-01-22">
+          2013-01-22
+        </prodDate>
+        <software version="4.0.8" date="2012-05-14">
+          Nesstar Publisher
+        </software>
+      </prodStmt>
+      <verStmt>
+        <version>
+          <![CDATA[Version 4 (January 2013)
+Version 3 (January 2013)
+Version 2 (January 2013)
+Version 1 (January 2013)]]>
+        </version>
+        <notes>
+          <![CDATA[Version 4 (January 2013) - Attaching the core dataset (anonymised coredataset)
+Version 3 (January 2013) - Updataed the documentation
+Version 2 (January 2013) - Attached raw dataset to the study
+Version 1 (January 2013) - Study was documented]]>
+        </notes>
+      </verStmt>
+      <holdings URI="http://www.chililab.org/docs/ddi"/>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>
+          <![CDATA[ Chilililab  Surveillance Dataset 2004-2010]]>
+        </titl>
+        <parTitl>
+          NA
+        </parTitl>
+        <IDNo>
+          INDEPTH.VN021.1.v2
+        </IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="Hanoi School of Public Health">
+          Tran Huu Bich
+        </AuthEnty>
+        <AuthEnty affiliation="Hanoi School of Public Health">
+          Bui Thi Thu Ha
+        </AuthEnty>
+        <AuthEnty affiliation="Hanoi School of Public Health">
+          Le Thi Vui
+        </AuthEnty>
+        <AuthEnty affiliation="Hanoi School of Public Health">
+          Pham Viet Cuong
+        </AuthEnty>
+        <AuthEnty affiliation="Hanoi School of Public Health">
+          Bui Tu Quyen
+        </AuthEnty>
+        <AuthEnty affiliation="Hanoi School of Public Health">
+          La Ngoc Quang
+        </AuthEnty>
+        <AuthEnty affiliation="Hanoi School of Public Health">
+          Nguyen Thanh Nghi
+        </AuthEnty>
+        <AuthEnty affiliation="Hanoi School of Public Health">
+          Duong Kim Tuan
+        </AuthEnty>
+        <AuthEnty affiliation="Hanoi School of Public Health">
+          Le Minh Thi
+        </AuthEnty>
+        <AuthEnty affiliation="Hanoi School of Public Health">
+          Truong Quang Tien
+        </AuthEnty>
+        <othId role="Data Manager" affiliation="Hanoi School of Public Health">
+          <p>
+            Pham Viet Cuong
+          </p>
+        </othId>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="LCL" affiliation="Hanoi School of Public Health" role="Questionaire design/Data Analisys">
+          Le Cu Linh
+        </producer>
+        <producer abbr="BTH" affiliation="Hanoi School of Public Health" role="Questionaire design">
+          Bui Thu Ha
+        </producer>
+        <producer abbr="PVC1" affiliation="Hanoi School of Public Health" role="Data Analisys">
+          Pham Viet Cuong A
+        </producer>
+        <producer abbr="NTH3" affiliation="Hanoi School of Public Health" role="Data Collection">
+          Nguyen Thanh Nghi
+        </producer>
+        <producer abbr="DKT" affiliation="Hanoi School of Public Health" role="Data Collection">
+          Duong Kim Tuan
+        </producer>
+        <producer abbr="LTV" affiliation="Hanoi School of Public Health" role="Data Collection">
+          Le Thi Vui
+        </producer>
+        <copyright>
+          CHILILAB, Hanoi School of Public Health
+        </copyright>
+        <software version="4.0.8" date="2012-05-14">
+          Nesstar Publisher
+        </software>
+        <fundAg abbr="CMB">
+          China Medialcal Board
+        </fundAg>
+      </prodStmt>
+      <distStmt>
+        <contact affiliation="Hanoi School of Public Health" URI="www.hsph.edu.vn" email="thb@hsph.edu.vn">
+          Tran Huu Bich
+        </contact>
+        <contact affiliation="Hanoi School of Public Health" URI="www.hsph.edu.vn" email="ltv@hsph.edu.vn">
+          Le Thi Vui
+        </contact>
+      </distStmt>
+      <serStmt>
+        <serName>
+          Demographic Surveillance
+        </serName>
+        <serInfo>
+          Rounds 1 to 17 of the annual demographic surveillance rounds
+        </serInfo>
+      </serStmt>
+      <verStmt>
+        <version date="2013-01-23">
+          <![CDATA[v4:: Core Microdata 2004-2010 for internal use only
+v3: Core Microdata 2004-2010 for internal use only
+v2:: Core Microdata 2004-2010 for internal use only]]>
+        </version>
+        <notes>
+          Add Microdata Set of the study
+        </notes>
+      </verStmt>
+    </citation>
+    <stdyInfo>
+      <subject>
+        <keyword>
+          Chililab
+        </keyword>
+        <keyword>
+          Demography
+        </keyword>
+        <keyword>
+          Adolescent
+        </keyword>
+        <topcClas vocab="World Bank">
+          Demography [N01.224]
+        </topcClas>
+      </subject>
+      <abstract>
+        <![CDATA[CHILILAB is designed as a site for training and research for Hanoi School of Public Health. CHILILAB is based on the foundation of an active and sustainable surveillance system monitoring basic morbidity and mortality as well as other demographic, socio-economic and culture characteristics. CHILILAB was designed to focus on issues related to adolescent health and injury. The entire population of 3 selected townships and 4 communes were invited to participate in the study, included 57161 participants from 17993 household. There are 6 objectives of CHILILAB, includes: 
+
+1.Establish a demographic and epidemiologic surveillance system on cyclic morbidity and mortality in Chi Linh district 
+
+2.Identify patterns and trends of morbidity and mortality in the district population periodically and longitudinally 
+
+ 3.Provide data on adolescent health especially risk and protective factor affecting adolescent health issues 
+ 
+ 4.Pilot and evaluate community health intervention strategies periodically in order to form a basic for developing health policies in the locality and elsewhere  
+ 
+ 5.Improve the procedures for data collection, analysis and application at the community level in a reliable and effective manner 
+ 
+ 6.Strengthen the capacity of public health professionals in Hanoi School of Public Health.]]>
+      </abstract>
+      <sumDscr>
+        <collDate date="2004-06-01" event="start" cycle="Round 1"/>
+        <collDate date="2004-08-30" event="end" cycle="Round 1"/>
+        <collDate date="2004-09-01" event="start" cycle="Round 2"/>
+        <collDate date="2004-11-30" event="end" cycle="Round 2"/>
+        <collDate date="2004-12-01" event="start" cycle="Round 3"/>
+        <collDate date="2005-02-28" event="end" cycle="Round 3"/>
+        <collDate date="2005-03-01" event="start" cycle="Round 4"/>
+        <collDate date="2005-05-30" event="end" cycle="Round 4"/>
+        <collDate date="2005-06-01" event="start" cycle="Round 5"/>
+        <collDate date="2005-08-30" event="end" cycle="Round 5"/>
+        <collDate date="2005-09-01" event="start" cycle="Round 6"/>
+        <collDate date="2005-12-31" event="end" cycle="Round 6"/>
+        <collDate date="2006-01-01" event="start" cycle="Round 7"/>
+        <collDate date="2006-04-30" event="end" cycle="Round 7"/>
+        <collDate date="2006-05-01" event="start" cycle="Round 8"/>
+        <collDate date="2006-08-31" event="end" cycle="Round 8"/>
+        <collDate date="2006-09-01" event="start" cycle="Round 9"/>
+        <collDate date="2006-12-31" event="end" cycle="Round 9"/>
+        <collDate date="2007-01-01" event="start" cycle="Round 10"/>
+        <collDate date="2007-04-30" event="end" cycle="Round 10"/>
+        <collDate date="2007-05-01" event="start" cycle="Round 11"/>
+        <collDate date="2007-08-31" event="end" cycle="Round 11"/>
+        <collDate date="2007-09-01" event="start" cycle="Round 12"/>
+        <collDate date="2007-12-31" event="end" cycle="Round 12"/>
+        <collDate date="2008-01-01" event="start" cycle="Round 13"/>
+        <collDate date="2008-06-30" event="end" cycle="Round 13"/>
+        <collDate date="2008-07-01" event="start" cycle="Round 14"/>
+        <collDate date="2008-12-31" event="end" cycle="Round 14"/>
+        <collDate date="2009-01-01" event="start" cycle="Round 15"/>
+        <collDate date="2009-06-30" event="end" cycle="Round 15"/>
+        <collDate date="2010-01-01" event="start" cycle="Round 16"/>
+        <collDate date="2010-06-30" event="end" cycle="Round 16"/>
+        <collDate date="2010-07-01" event="start" cycle="Round 17"/>
+        <collDate date="2010-12-31" event="end" cycle="Round 17"/>
+        <collDate date="2011-01-01" event="start" cycle="Round 18"/>
+        <collDate date="2011-06-30" event="end" cycle="Round 18"/>
+        <collDate date="2011-07-01" event="start" cycle="Round 19"/>
+        <collDate date="2011-12-31" event="end" cycle="Round 19"/>
+        <collDate date="2012-01-01" event="start" cycle="Round 20"/>
+        <collDate date="2012-12-31" event="end" cycle="Round 20"/>
+        <nation abbr="VN">
+          Vietnam
+        </nation>
+        <geogCover>
+          <![CDATA[Chi Linh is a mountainous town of Hai Duong Province of northern Vietnam. Chi Linh town covers an area of 300,54 square kilometers, contains 17 communes and 3 towns and has a population of 142,278 (50.3% female, 49.7% male). A number of different ethnic minority groups live in the district, including San Diu, Chinese, H'Mong, Tay, Nung and some other ethnic minorities. The population density varies across the district, with higher density in lowland communes and places with access to transportation routes. Approximately 25% of the total population lives in urban areas. The number of adolescents between 15-24 years of age accounts for 19.3% of the total district population according to 1999 population data. Residents receive information, including health information, from several different channels: 100% of the communes/towns are covered with the loud-speaker system; 100% of households have their own radio receivers; about 60% of households have TVs. 
+
+Several national roads as well as inter-communal roads run through the town. While the national roads are high quality and therefore can handle a high volume of high speed traffic, the inter-communal roads are ill-maintained due to insufficient funding. As a result, some communes are not very easily accessible. Much of the land in Chi Linh is used for agriculture, including rice and subsidiary dry crop cultivation. In addition, forest resources in the district are currently being exploited. The town also contains two thermal power plants as well as a medical glass plant, a refractory soil mine, and a leather shoe making plant providing employment in the district.]]>
+        </geogCover>
+        <anlyUnit>
+          Individual
+        </anlyUnit>
+        <dataKind>
+          Event history data
+        </dataKind>
+      </sumDscr>
+      <notes>
+        <![CDATA[The scope of CHILILAB datasheet includes:
+
+Household: General household information (resident, family members...), morbidity data and general socio-economic and cultural conditions.
+Individual: Gender, Ethnic group, Date of birth, Education, Occupation, Marial status, Pregnancy (for women), Immigration, Out-migration, Mortality.
+Adolescent: General infomation, Adolescent health.]]>
+      </notes>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <dataCollector>
+          Hoang Thi Nhai
+        </dataCollector>
+        <dataCollector>
+          Doan Thi Nguyet Tho
+        </dataCollector>
+        <dataCollector>
+          Nguyen Thi Hien
+        </dataCollector>
+        <dataCollector>
+          Nguyen Thi Luong
+        </dataCollector>
+        <dataCollector>
+          Dang Van Anh
+        </dataCollector>
+        <dataCollector>
+          Dam Thi Thoa
+        </dataCollector>
+        <dataCollector>
+          Bui Thi Ken
+        </dataCollector>
+        <dataCollector>
+          Bui Thi Hue
+        </dataCollector>
+        <dataCollector>
+          Vu Thi Nguyen
+        </dataCollector>
+        <dataCollector>
+          Luong Thi Thoi
+        </dataCollector>
+        <dataCollector>
+          Le Thi Bich Lan
+        </dataCollector>
+        <dataCollector>
+          Duong Thi Dung
+        </dataCollector>
+        <dataCollector>
+          Nguyen Huy
+        </dataCollector>
+        <dataCollector>
+          Nguyen Thi Hong Phuong
+        </dataCollector>
+        <dataCollector>
+          Vu Thi Nha
+        </dataCollector>
+        <dataCollector>
+          Nguyen Thi Hong
+        </dataCollector>
+        <dataCollector>
+          Doan Thi Kha
+        </dataCollector>
+        <dataCollector>
+          Nguyen Thi Thanh Xuan
+        </dataCollector>
+        <frequenc>
+          <![CDATA[From 2004 to the end of 2007: 4 rounds per year
+From 2008 to the end of 2012: 2 rounds per year
+From 2013: 1 round per year]]>
+        </frequenc>
+        <sampProc>
+          The entire population of 7 communes and townships within Chi Linh town will be selected to be the sample of study. This includes approximately 70,000 individuals from 18,000 households. Data was collected at both the household and individual levels. A list of the households in the district was made with the involvement of relevant authorities and use of existing local lists of households at the time when the baseline survey is conducted. Study subjects for specific studies will be selected according to their objectives and aims of those studies
+        </sampProc>
+        <collMode>
+          Face-to-face [f2f]
+        </collMode>
+        <resInstru>
+          <![CDATA[CHILILAB includes 7 kinds of form to collect data:
+
+1. Form Q (General Information of household): Contains basic information of household as: Name of household, address, household ID, identify some events in the household during 3 months (or 4 months or 6 months).
+
+2. Form H (Household information): some information about the social - economic of household as: list of properties, type of house wall, house roof or house foundation
+
+3. Form C (Individual information): Date of birth, sex, age, ethnic, religion, health ensurance, numbers of children
+
+4. Form DC (Immigration information): Date of immigration or out-migration, reason of immigration and where do they live to/from?
+
+5. Form TH (Pregnancy information): Pregnancy status, start-date and end-date of pregnancy
+
+6. Form CH (Mortality information): Expectation of life, mortality cause
+
+7. Form CU (Household change information): Date to change, reason to change and the name of new household]]>
+        </resInstru>
+        <sources/>
+        <actMin>
+          Field Supervisors will oversee the activities of the surveyors, and the Field Lab Managers on will oversee all activity related to building and maintaining the database. Other supplementary activities such as weekly and monthly progress meetings will be organized as part of data quality control.
+        </actMin>
+        <cleanOps>
+          Data collected from the sample population is stored in the database of the CHILILAB in HSPH. Periodical updates of demographic information and socio-economic, cultural, health conditions are extracted from the database for analysis. Findings are then disseminated to the community and policy makers in annual workshops with local authorities, though manuscripts, and factsheets in Vietnamese as well as in English. Individual and household data in CHILILAB could be accessed if the request for data use is sent to the CHILILAB coordinator for consideration
+        </cleanOps>
+      </dataColl>
+      <notes>
+        <![CDATA[Data entry software is developed in such a way that there is an automatic error control system that function during the process of data entry. In cases where errors are detected by the data entry clerk or by the software, the relevant surveyor and supervisor are informed and the errors are corrected and households re-interviewed if necessary. All errors are acknowledged and recorded in order to gain experience and improve data collection methods in the future.
+Checking data: The contents of 5% of the interviews/household observations will be totally or partly reconstructed by the field supervisors or the field coordinators (HSPH staff) to check the data quality through a random selection (5%) of questionnaires used by the surveyors. The field coordinators, at the same time, are responsible for supervising activities being conducted by the field supervisors. This quality control process will be conducted by comparing interview outcomes of the surveyors and supervisors.]]>
+      </notes>
+      <anlyInfo>
+        <respRate>
+          100% household in the field have joined in CHILILAB
+        </respRate>
+      </anlyInfo>
+    </method>
+    <dataAccs>
+      <setAvail>
+        <origArch>
+          Chililab (VN021)
+        </origArch>
+      </setAvail>
+      <useStmt>
+        <contact affiliation="IT Group, Hanoi School of Public Health" URI="www.hsph.edu.vn" email="pvc2@hsph.edu.vn">
+          Pham Viet Cuong
+        </contact>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat>
+      <relStdy>
+        <![CDATA[This case control study was used to examine the 60 women with Ectopic pregnancies (EP) (case) at the district health center in Chi Linh between 2002 and 2004 and the 123 women (control) living in Chi Linh district who delivered in the same place, during the same period of time. 
+
+The analysis did not find differences of personal demographic characteristics such as age, education, profession, marriage and family history of EP, between the case and control groups. The results of bivariate and multivariate analyses showed the significant risk factors for EP are previous abortion, pelvic inflamatory and IUD use with respective odds ratios (OR) of 2.5 (95% CI: 1.08 – 5.96); 2.7 (95% CI: 1.14 – 6.66); and 4.2 (95% CI: 1.79 – 9.9). There is a need to do counselling on appropriate contraceptive methods, and on how to prevent inflamatory diseases to minimize the risk of EP and its consequences such as infertility and uterus rupture. 
+]]>
+        <citation>
+          <titlStmt>
+            <titl>
+              RISK FACTORS FOR ECTOPIC PREGNANCY IN WOMEN HAVING USED HEALTH SERVICES AT CHILINH HEALTH CENTER
+            </titl>
+          </titlStmt>
+          <holdings URI="CHILILAB"/>
+        </citation>
+      </relStdy>
+      <relStdy>
+        <![CDATA[Background: Malnutrition is a public health problem in Vietnam. Various health programs in the country have focused on improving child health and the status of women. In general, reports in the literature suggest that care is positively correlated with positive nutritional status of children. In the household, the father is considered a resource for care. However, the role of paternal care in health programs has not received the attention it deserves. 
+Objective: The objective of the current study is to identify associations between the involvement of fathers (in child care and housework) and the nutritional status of children under three years of age. 
+
+Methods: This cross-sectional study was based on a random sample of 547 children less than three years of age from intact families, and their biological parents. The main outcome of interest, child nutrition, as measured through underweight and stunting. Predictor variables represented two domains of father’s involvement. Multivariable general linear modeling and multivariable logistic regression modeling were conducted using a combination of stepwise and hierarchical approaches in data analysis.
+
+Results: The overall prevalence of underweight children was 19.1% and of stunting among children was 14.4%. Children whose fathers did not bring them to a medical facility for immunization were about 1.7 times more likely than children whose fathers did to be underweight and stunted after controlling for age of children, household economic status and mother’s education. Father’s involvement in housework was not found to be related to malnutrition.
+Conclusions: Paternal involvement in child immunization should be encouraged by health care providers who manage immunization programs
+]]>
+        <citation>
+          <titlStmt>
+            <titl>
+              THE RELATIONSHIP BETWEEN FATHER’S INVOLVEMENT AND CHILD MALNUTRITION IN A RURAL AREA OF VIETNAM
+            </titl>
+          </titlStmt>
+          <holdings URI="CHILILAB"/>
+        </citation>
+      </relStdy>
+      <relStdy>
+        <![CDATA[Studying risk factors and prevalence of non-communicable dieases (NCD) is an essential component of looking at the development of disease epidemiology in the population. Currently, the STEPS approach of the World Health Organization (WHO) is a comprehensive method for studying risk factors and prevalence of NCD. Findings from studies on NCD will form the basis for interventions and provide guidance for the development of NCD surveillance systems. The objective of this study was to enhance the capacity of field sites that have demographic surveillance systems in Asia/Oceania to implement surveillance systems for NCD risk factors. The study includes a descriptive analysis using STEP 1 and STEP 2 of the WHO approach to collecting data. Findings show that people from 24-64 years old in Chi Linh community have several risk factors for NCD. These include the high proportion of cigarette smoking (51.3% among males), and the high proportion of males reported using alcohol (wine, beer), accounting for 85.6%. In addition, healthy activities such as manual work, walking, and doing exercise were not common in the community. The prevalence of NCD in the study population was not high, with the prevalence of hypertention being 7.6%, history of stroke 0.8%, history of having diagnosed cardiovascular diseases were 8.3%, prelavence of diabetes 0.7%, and prevalence of cancer 0.6%. Although the prevalence of these diseases was not high compared to results from other studies conducted around the world, these figures show the neccesity to establish surveillance system for risk factors of NCDs in the region. These diseases are preventable by simple and effective intervention programs. 
+]]>
+        <citation>
+          <titlStmt>
+            <titl>
+              RISK FACTORS FOR NON-COMMUNICABLE DISEASES
+            </titl>
+          </titlStmt>
+          <holdings URI="CHILILAB"/>
+        </citation>
+      </relStdy>
+      <relStdy>
+        <![CDATA[This research was conducted in 7 communes/towns that belong to Demographic- Epidemiological Surveillance System (DESS) in Chi Linh District (CHILILAB), Hai Duong Province between October 2006 and February 2007. This research was conducted in order to clarify the sex ratio at birth of newborn babies in Chi Linh District in 2005 and to describe the factors that influence the sex ratio within this area. 
+This research involved analysis of a combination of secondary data from the CHILILAB system, a structured questionnaire given directly to 262 mothers randomly selected from the 804 mothers in Chi Linh who gave birth in 2005, in-depth interviews with 8 women who had abortions during the first 6 months of 2006.
+
+ According to this research, the sex ratio at birth in 2005 in CHILILAB was 106.4. This result varied according to economic conditions and age groups. Most of couples expected to have two babies, one boy and one girl. At the first delivery, these couples did not consider the sex of the baby to be very important. But for the second birth, the proportion of couples who wanted to have boy baby was different for couples who already had a boy and for those who did not. This research found that 22.5% of women know about sex selection methods but only 18.5% of those women apply these methods. 84.4% of expecting mothers knew the sex of the baby before birth through ultra sound and of these mothers 91% said they encountered no difficulty in determining the sex of the child through an ultra sound. Several recommendations have arisen from this studying. 
+
+These include, continuing to follow up these issues in this area, promoting communication on gender equality (focusing on those couples having all baby girls and living in good economic conditions), strengthening the surveillance system that monitors forbidden disclosures of a baby’s sex when giving pregnant mothers an ultra sound. 
+]]>
+        <citation>
+          <titlStmt>
+            <titl>
+              Sex ratio at birth and related factors in the area of CHILILAB, Chi Linh District, Hai Duong Province in 2005
+            </titl>
+          </titlStmt>
+          <holdings URI="CHILILAB"/>
+        </citation>
+      </relStdy>
+      <relStdy>
+        <![CDATA[The disability-adjusted life year (DALY) is a comprehensive indicator which has been used worldwide to measure and assess the burden of disease. DALYs measure the sum of potential years of life lost due to premature death as well as productive years lost due to disabilities. However, the application of this method has been limited in Vietnam due to its complexity and of the scarcity of resources. This study was conducted from March 2004 to March 2005 employing DALYs to collect data on the morbidity and mortality caused by the ten highest burden diseases among the CHILILAB population in Chi Linh District. 
+A community-based study consisting of interviews with the total population of 10,375 in An Lac commune and Sao Do town, was conducted with 6 rounds every two months. This study gathered both demographic information and information on disease incidence. For each disease they had experienced, interviewees were asked to describe symptoms, time of onset, fees and places to access health service. 
+
+Within the one-year study period, among the study population of 10,375 people, there were 45 deaths distributed evenly among males and females and 5,336 new cases of disease (56.6% of cases among females). Among those who were sick, up to 11.4% did not access any health services during the time of their sickness, 59.9% cases reported using self-treatment, and only 0.7% accessed health services straight away. The remaining reported accessing health services and also buying medications for self-treatment purpose. The average cost of treatment among those having treatment was 155,000 VND (a little under $10). This included costs of medicines, hospital fee, transportation costs, lost income and other fees. 
+
+The total disease burden (DALY) calculated from this study was 1,945 years for the study population, equivalent to 18,754 years per 100,000 people. Of this total, the years of life lost (YLL) accounted for 35% of the total disease burden, equivalent to 685 years in the study population and 6,605 years per 100,000 people. The years lost due to disability (YLD) is 1,260.45 years in the study population, equivalent to 12,149 years per 100,000 people. 
+The breakdown of the disease burden showed that the CHILILAB population is in the epidemiological transition period, where the burden of non-communicable diseases increases while that of communicable diseases decreases. The Chi Linh population is transitioning from high mortality to low mortality. During the study period, 60% of the total years of life lost were due to non-communicable diseases, 22% were due to injury and 18% were due to communicable diseases. The structure of disease burden differs between males and females. The years of lost life due to injury is higher for males while years of life lost due to both communicable and non-communicable diseases are higher for females. Regarding of the breakdown of causes of years lost due to disability, 98.8% were attributed to five groups of diseases: lower respiratory tract infections (54.9%), respiratory diseases (25.6%), Alzheimers (12.2%), goiters (3.2%) and respiratory tuberculosis (3.0%). 
+Although this study has limitations due to the fact that data was collected from community surveys, this study indicates that the method of using DALYs to measure disease burden has some advantages. Accurate measurement of the burden of disease requires not only use of the available data in health settings, but should also include data from community-based surveys on large samples. 
+]]>
+        <citation>
+          <titlStmt>
+            <titl>
+              USING DALYS TO MEASURE THE BURDEN OF DISEASE IN CHI LINH FIELD LABORATORY (CHILILAB), 2004
+            </titl>
+          </titlStmt>
+          <holdings URI="CHILILAB"/>
+        </citation>
+      </relStdy>
+    </othrStdyMat>
+  </stdyDscr>
+  <fileDscr ID="F4" URI="VN021.Raw.v4.Nesstar?Index=0&amp;Name=VN021.1.v1">
+    <fileTxt>
+      <fileName>
+        VN021.1.NSDstat
+      </fileName>
+      <fileCont>
+        <![CDATA[This file contains all individual events that occured  in periods 2004 tp 2010. The individualid war anomynised.]]>
+      </fileCont>
+      <dimensns>
+        <caseQnty>
+          131662
+        </caseQnty>
+        <varQnty>
+          20
+        </varQnty>
+      </dimensns>
+      <fileType>
+        Nesstar 200801
+      </fileType>
+      <filePlac>
+        Chililab Office
+      </filePlac>
+      <verStmt>
+        <version>
+          V.2
+        </version>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr>
+    <varGrp ID="VG5" type="subject" var="V22 V23">
+      <labl>
+        <![CDATA[Center  Related variables]]>
+      </labl>
+      <txt>
+        <![CDATA[The group contains informations about  the Center]]>
+      </txt>
+    </varGrp>
+    <varGrp ID="VG1" type="subject" var="V24 V25 V26 V33 V34 V35 V36 V37 V38 V39 V40">
+      <labl>
+        <![CDATA[Indididual Related  Variables]]>
+      </labl>
+    </varGrp>
+    <varGrp ID="VG4" type="subject" varGrp="VG6 VG8">
+      <labl>
+        <![CDATA[Event Related  Variables]]>
+      </labl>
+    </varGrp>
+    <varGrp ID="VG6" type="subject" var="V26 V34">
+      <labl>
+        Birth Related Variables
+      </labl>
+    </varGrp>
+    <varGrp ID="VG8" type="subject" var="V35 V36 V37 V24">
+      <labl>
+        Death Related Variables
+      </labl>
+    </varGrp>
+    <var ID="V21" name="RecNr" files="F4" dcml="0" intrvl="contin">
+      <labl>
+        Record number
+      </labl>
+      <valrng>
+        <range min="1" max="131662"/>
+      </valrng>
+      <sumStat type="vald">
+        131662
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <sumStat type="min">
+        1
+      </sumStat>
+      <sumStat type="max">
+        131662
+      </sumStat>
+      <sumStat type="mean">
+        65831.5
+      </sumStat>
+      <sumStat type="stdev">
+        38007.69
+      </sumStat>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V22" name="CountryId" files="F4" dcml="0" intrvl="discrete">
+      <labl>
+        Country Code
+      </labl>
+      <valrng>
+        <range min="704" max="704"/>
+      </valrng>
+      <sumStat type="vald">
+        131662
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <catgry>
+        <catValu>
+          704
+        </catValu>
+        <catStat type="freq">
+          131662
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V23" name="CentreId" files="F4" intrvl="discrete">
+      <location width="5"/>
+      <labl>
+        Centre Code
+      </labl>
+      <sumStat type="vald">
+        131662
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <catgry>
+        <catValu>
+          VN021
+        </catValu>
+        <catStat type="freq">
+          131662
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V24" name="IndividualId" files="F4" dcml="0" intrvl="contin">
+      <labl>
+        Individual Id
+      </labl>
+      <valrng>
+        <range min="1" max="62021"/>
+      </valrng>
+      <sumStat type="vald">
+        131662
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <sumStat type="min">
+        1
+      </sumStat>
+      <sumStat type="max">
+        62021
+      </sumStat>
+      <sumStat type="mean">
+        31017.019
+      </sumStat>
+      <sumStat type="stdev">
+        17904.291
+      </sumStat>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V25" name="Sex" files="F4" dcml="0" intrvl="discrete">
+      <labl>
+        Sex
+      </labl>
+      <valrng>
+        <range min="1" max="2"/>
+      </valrng>
+      <sumStat type="vald">
+        131618
+      </sumStat>
+      <sumStat type="invd">
+        44
+      </sumStat>
+      <catgry>
+        <catValu>
+          1
+        </catValu>
+        <catStat type="freq">
+          63367
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2
+        </catValu>
+        <catStat type="freq">
+          68251
+        </catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          44
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V26" name="DoB" files="F4" intrvl="discrete">
+      <location width="10"/>
+      <labl>
+        Date of Birth
+      </labl>
+      <sumStat type="vald">
+        131616
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V27" name="EventCount" files="F4" dcml="0" intrvl="discrete">
+      <labl>
+        Count of events
+      </labl>
+      <valrng>
+        <range min="1" max="10"/>
+      </valrng>
+      <sumStat type="vald">
+        131662
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <catgry>
+        <catValu>
+          1
+        </catValu>
+        <catStat type="freq">
+          8
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2
+        </catValu>
+        <catStat type="freq">
+          116890
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          3
+        </catValu>
+        <catStat type="freq">
+          6
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          4
+        </catValu>
+        <catStat type="freq">
+          13312
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          6
+        </catValu>
+        <catStat type="freq">
+          1380
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          8
+        </catValu>
+        <catStat type="freq">
+          56
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          10
+        </catValu>
+        <catStat type="freq">
+          10
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V28" name="EventNr" files="F4" dcml="0" intrvl="discrete">
+      <labl>
+        Event Number
+      </labl>
+      <valrng>
+        <range min="1" max="10"/>
+      </valrng>
+      <sumStat type="vald">
+        131662
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <catgry>
+        <catValu>
+          1
+        </catValu>
+        <catStat type="freq">
+          62021
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2
+        </catValu>
+        <catStat type="freq">
+          62013
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          3
+        </catValu>
+        <catStat type="freq">
+          3568
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          4
+        </catValu>
+        <catStat type="freq">
+          3566
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          5
+        </catValu>
+        <catStat type="freq">
+          238
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          6
+        </catValu>
+        <catStat type="freq">
+          238
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          7
+        </catValu>
+        <catStat type="freq">
+          8
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          8
+        </catValu>
+        <catStat type="freq">
+          8
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          9
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          10
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V29" name="EventCode" files="F4" intrvl="discrete">
+      <location width="3"/>
+      <labl>
+        Event Code
+      </labl>
+      <sumStat type="vald">
+        131662
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <catgry>
+        <catValu>
+          BTH
+        </catValu>
+        <catStat type="freq">
+          4481
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          DTH
+        </catValu>
+        <catStat type="freq">
+          1681
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          ENT
+        </catValu>
+        <catStat type="freq">
+          686
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          ENU
+        </catValu>
+        <catStat type="freq">
+          48032
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          EXT
+        </catValu>
+        <catStat type="freq">
+          685
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          IMG
+        </catValu>
+        <catStat type="freq">
+          12627
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          OBE
+        </catValu>
+        <catStat type="freq">
+          46140
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          OMG
+        </catValu>
+        <catStat type="freq">
+          17330
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V30" name="EventDate" files="F4" intrvl="discrete">
+      <location width="10"/>
+      <labl>
+        Date of Event
+      </labl>
+      <sumStat type="vald">
+        131662
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V31" name="ObservationDate" files="F4" intrvl="discrete">
+      <location width="10"/>
+      <labl>
+        Date of Observation
+      </labl>
+      <sumStat type="vald">
+        131662
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V32" name="LocationId" files="F4" dcml="0" intrvl="contin">
+      <labl>
+        Location Code
+      </labl>
+      <valrng>
+        <range min="1" max="17381"/>
+      </valrng>
+      <sumStat type="vald">
+        131662
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <sumStat type="min">
+        1
+      </sumStat>
+      <sumStat type="max">
+        17381
+      </sumStat>
+      <sumStat type="mean">
+        8717.271
+      </sumStat>
+      <sumStat type="stdev">
+        5007.793
+      </sumStat>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V33" name="MotherId" files="F4" intrvl="discrete">
+      <location width="11"/>
+      <labl>
+        Mother ID
+      </labl>
+      <sumStat type="vald">
+        57012
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V34" name="DeliveryId" files="F4" dcml="0" intrvl="discrete">
+      <labl>
+        Delivery Id
+      </labl>
+      <valrng>
+        <range min="0" max="11"/>
+      </valrng>
+      <sumStat type="vald">
+        70983
+      </sumStat>
+      <sumStat type="invd">
+        60679
+      </sumStat>
+      <catgry>
+        <catValu>
+          0
+        </catValu>
+        <catStat type="freq">
+          2634
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          1
+        </catValu>
+        <catStat type="freq">
+          29791
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2
+        </catValu>
+        <catStat type="freq">
+          24732
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          3
+        </catValu>
+        <catStat type="freq">
+          8536
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          4
+        </catValu>
+        <catStat type="freq">
+          3158
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          5
+        </catValu>
+        <catStat type="freq">
+          1158
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          6
+        </catValu>
+        <catStat type="freq">
+          504
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          7
+        </catValu>
+        <catStat type="freq">
+          276
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          8
+        </catValu>
+        <catStat type="freq">
+          120
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          9
+        </catValu>
+        <catStat type="freq">
+          52
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          10
+        </catValu>
+        <catStat type="freq">
+          16
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          11
+        </catValu>
+        <catStat type="freq">
+          6
+        </catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          60679
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V35" name="Cause1" files="F4" intrvl="discrete">
+      <location width="3"/>
+      <labl>
+        Cause of Death 1
+      </labl>
+      <sumStat type="vald">
+        20
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <catgry>
+        <catValu>
+          c91
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          d43
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          d56
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          i64
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          j18
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          p05
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          p07
+        </catValu>
+        <catStat type="freq">
+          9
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          q24
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          w69
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V36" name="Cause2" files="F4" dcml="0" intrvl="discrete">
+      <labl>
+        Cause of Death 2
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        131662
+      </sumStat>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          131662
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V37" name="Cause3" files="F4" dcml="0" intrvl="discrete">
+      <labl>
+        Cause of Death 3
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        131662
+      </sumStat>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          131662
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V38" name="Likelihood1" files="F4" dcml="0" intrvl="discrete">
+      <labl>
+        Likelihood1
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        131662
+      </sumStat>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          131662
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V39" name="Likelihood2" files="F4" dcml="0" intrvl="discrete">
+      <labl>
+        Likelihood2
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        131662
+      </sumStat>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          131662
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V40" name="Likelihood3" files="F4" dcml="0" intrvl="discrete">
+      <labl>
+        Likelihood3
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        131662
+      </sumStat>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          131662
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+  </dataDscr>
+</codeBook>

@@ -1,0 +1,1032 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codeBook version="1.2.2" ID="INDEPTH.KE031.1.v3" xml-lang="en" xmlns="http://www.icpsr.umich.edu/DDI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.icpsr.umich.edu/DDI http://www.icpsr.umich.edu/DDI/Version1-2-2.xsd">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>
+          Nairobi Core Dataset 2002-2010
+        </titl>
+        <IDNo>
+          DDI.INDEPTH.KE031.1.v5
+        </IDNo>
+      </titlStmt>
+      <rspStmt>
+        <othId role="Documentation &amp; Review of the Study Documentation" affiliation="African Population and Health Research Center">
+          <p>
+            PATRICIA AJA
+          </p>
+        </othId>
+        <othId role="Documentation of the Study" affiliation="African Population and Health Research Center">
+          <p>
+            NELSON MBAYA
+          </p>
+        </othId>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="KE031" affiliation="Nairobi Urban HDSS, APHRC" role="Documentation of the Study">
+          Statistics and Surveys Unit (SSU)
+        </producer>
+        <prodDate date="2013-02-19">
+          2013-02-19
+        </prodDate>
+        <software version="4.0.8" date="2012-05-14">
+          Nesstar Publisher
+        </software>
+      </prodStmt>
+      <verStmt>
+        <version>
+          Version 5 (February 2013)
+        </version>
+        <notes>
+          <![CDATA[22 January 2013 - In Version 2, Raw Microdataset attached to the Study.
+22 January 2013 - In Version 3, Predefined Variable and Dataset Descriptions added to the Micro Dataset - Predefined by Somnath.
+23 January 2013 - In Version 4,Detailed information about DSS site added.
+19 February 2013 - In Version 5,Detailed information about DSS site added.]]>
+        </notes>
+      </verStmt>
+      <holdings URI="http://indepth-ishare.org/ISHARE2"/>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>
+          Nairobi Urban Health and Demographic Surveillance System 2002-2010
+        </titl>
+        <parTitl>
+          NOT APPLICABLE
+        </parTitl>
+        <IDNo>
+          INDEPTH.KE031.1.v3
+        </IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="Site Leader, KE031">
+          Dr.Alex Ezeh
+        </AuthEnty>
+        <AuthEnty affiliation="Site Representative, KE031">
+          Dr.Donatien Beguy
+        </AuthEnty>
+        <othId role="Data Manager" affiliation="APHRC">
+          <p>
+            Patricia Elung'ata
+          </p>
+        </othId>
+        <othId role="Database Programmer" affiliation="APHRC">
+          <p>
+            Nelson Mbaya
+          </p>
+        </othId>
+        <othId role="Study Subjects" affiliation="APHRC">
+          <p>
+            Residents of Korogocho and Viwandani Slums
+          </p>
+        </othId>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="Dr." role="Sampling Methodology/Selection">
+          Eliya Zulu
+        </producer>
+        <producer abbr="Mr." affiliation="Field Coordinator" role="Data Collection">
+          Clement Oduor
+        </producer>
+        <producer abbr="Ms." affiliation="Research Officer" role="Questionnaire Design">
+          Kanyiva Muindi
+        </producer>
+        <producer abbr="Mr." affiliation="Data Systems Manager" role="Data Processing">
+          Bonface Nganyi
+        </producer>
+        <producer abbr="Ms." affiliation="Data Manager" role="Data Cleaning and Analysis">
+          Patricia Elung'ata
+        </producer>
+        <copyright>
+          INDEPTH usage to be decided
+        </copyright>
+        <software version="4.0.8" date="2012-05-14">
+          Nesstar Publisher
+        </software>
+        <fundAg role="Current Funder">
+          Bill and Melinda Gates Foundation, USA
+        </fundAg>
+        <fundAg role="Current Funder">
+          William and Flora Hewlett Foundation, USA
+        </fundAg>
+        <fundAg role="Current Funder">
+          Swedish International Development Cooperation Agency
+        </fundAg>
+        <fundAg role="Previous Funder">
+          Wellcome Trust, UK
+        </fundAg>
+        <fundAg role="Previous Funder">
+          Rockefeller Foundation, USA
+        </fundAg>
+      </prodStmt>
+      <distStmt>
+        <contact affiliation="African Population and Health Research Center" URI="www.aphrc.org" email="datarequests@aphrc.org">
+          Head, Statistics and Surveys Unit
+        </contact>
+      </distStmt>
+      <serStmt>
+        <serName>
+          Demographic Surveillance
+        </serName>
+        <serInfo>
+          <![CDATA[This data is collected from Rounds 1 to 24 of the demographic surveillance rounds. The 1st round of data collection started on 1st August 2002, and as of 31st December 2012,  31 rounds of data collection had been completed.  Data is collected 3 times year, once after every 4-months.]]>
+        </serInfo>
+      </serStmt>
+      <verStmt>
+        <version date="2013-02-19">
+          <![CDATA[V2: Core Microdata 2002-2010
+Extracted on 19th February 2013
+V3: New dataset attached]]>
+        </version>
+        <notes>
+          19 February 2013 - In Version 2,Detailed cleaning of the sequence of Individual Events was carried out.
+        </notes>
+      </verStmt>
+    </citation>
+    <stdyInfo>
+      <subject>
+        <keyword>
+          Migration
+        </keyword>
+        <keyword>
+          Fertility
+        </keyword>
+        <keyword>
+          Mortality
+        </keyword>
+        <keyword>
+          Migration
+        </keyword>
+        <topcClas vocab="World Bank">
+          Age Distribution [N01.224.033]
+        </topcClas>
+        <topcClas vocab="World Bank">
+          Censuses [N01.224.175]
+        </topcClas>
+        <topcClas vocab="World Bank">
+          Family Characteristics [N01.224.361]
+        </topcClas>
+        <topcClas vocab="World Bank">
+          Health Status Disparities [N06.850.505.400.425.675]
+        </topcClas>
+        <topcClas vocab="World Bank">
+          Population Dynamics [N01.224.625]
+        </topcClas>
+        <topcClas vocab="World Bank">
+          Residential Mobility [N01.224.791.700]
+        </topcClas>
+        <topcClas vocab="World Bank">
+          Residence Characteristics [N01.224.791]
+        </topcClas>
+        <topcClas vocab="World Bank">
+          Sex Ratio [N01.224.803.815]
+        </topcClas>
+        <topcClas vocab="World Bank">
+          Vital Statistics [N01.224.935]
+        </topcClas>
+        <topcClas vocab="World Bank">
+          Urban Health [N01.400.800]
+        </topcClas>
+        <topcClas vocab="World Bank">
+          Urban Population [N01.600.900]
+        </topcClas>
+        <topcClas vocab="World Bank">
+          Educational Status [N01.824.196]
+        </topcClas>
+        <topcClas vocab="World Bank">
+          Employment [N01.824.245]
+        </topcClas>
+        <topcClas vocab="World Bank">
+          Occupations [N01.824.547]
+        </topcClas>
+        <topcClas vocab="World Bank">
+          Poverty [N01.824.600]
+        </topcClas>
+        <topcClas vocab="World Bank">
+          Social Conditions [N01.824.827]
+        </topcClas>
+        <topcClas vocab="World Bank">
+          Policy [N03.623]
+        </topcClas>
+        <topcClas vocab="World Bank">
+          Health Services Research [N05.425]
+        </topcClas>
+        <topcClas vocab="World Bank">
+          Epidemiologic Factors [N05.715.350]
+        </topcClas>
+      </subject>
+      <abstract>
+        The places we live affect our health status and the choices and opportunities we have (or do not have) to lead fulfilling lives. Over the past ten years, the African Population &amp; Health Research Centre (APHRC) has led pioneering work in highlighting some of the major health and livelihood challenges associated with rapid urbanization in sub-Saharan Africa (SSA). In 2002, the Centre established the first longitudinal platform in urban Africa in the city of Nairobi in Kenya. The platform known as the Nairobi Urban Health and Demographic Surveillance System collects data on two informal settlements - Korogocho and Viwandani - in Nairobi City every four months on issues ranging from household dynamics to fertility and mortality, migration and livelihood as well as on causes of death, using a verbal autopsy technique. The dataset provided here contains key demographic and health indicators extracted from the longitudinal database. Researchers interested in accessing the micro-data can look at our data access policy and contact us.
+      </abstract>
+      <sumDscr>
+        <collDate date="2002-08-01" event="start" cycle="Round 0"/>
+        <collDate date="2002-09-27" event="end" cycle="Round 0"/>
+        <collDate date="2002-10-16" event="start" cycle="Round 1"/>
+        <collDate date="2002-12-23" event="end" cycle="Round 1"/>
+        <collDate date="2003-01-21" event="start" cycle="Round 2"/>
+        <collDate date="2003-04-06" event="end" cycle="Round 2"/>
+        <collDate date="2003-05-04" event="start" cycle="Round 3"/>
+        <collDate date="2003-08-31" event="end" cycle="Round 3"/>
+        <collDate date="2003-09-17" event="start" cycle="Round 4"/>
+        <collDate date="2003-12-23" event="end" cycle="Round 4"/>
+        <collDate date="2004-01-23" event="start" cycle="Round 5"/>
+        <collDate date="2004-05-06" event="end" cycle="Round 5"/>
+        <collDate date="2004-05-28" event="start" cycle="Round 6"/>
+        <collDate date="2004-09-20" event="end" cycle="Round 6"/>
+        <collDate date="2004-09-25" event="start" cycle="Round 7"/>
+        <collDate date="2004-12-23" event="end" cycle="Round 7"/>
+        <collDate date="2005-01-23" event="start" cycle="Round 8"/>
+        <collDate date="2005-06-06" event="end" cycle="Round 8"/>
+        <collDate date="2005-06-14" event="start" cycle="Round 9"/>
+        <collDate date="2005-09-26" event="end" cycle="Round 9"/>
+        <collDate date="2005-09-27" event="start" cycle="Round 10"/>
+        <collDate date="2005-12-24" event="end" cycle="Round 10"/>
+        <collDate date="2006-01-13" event="start" cycle="Round 11"/>
+        <collDate date="2006-04-30" event="end" cycle="Round 11"/>
+        <collDate date="2006-05-01" event="start" cycle="Round 12"/>
+        <collDate date="2006-08-31" event="end" cycle="Round 12"/>
+        <collDate date="2006-09-01" event="start" cycle="Round 13"/>
+        <collDate date="2007-01-30" event="end" cycle="Round 13"/>
+        <collDate date="2007-02-04" event="start" cycle="Round 14"/>
+        <collDate date="2007-05-27" event="end" cycle="Round 14"/>
+        <collDate date="2007-05-29" event="start" cycle="Round 15"/>
+        <collDate date="2007-09-15" event="end" cycle="Round 15"/>
+        <collDate date="2007-09-25" event="start" cycle="Round 16"/>
+        <collDate date="2007-12-31" event="end" cycle="Round 16"/>
+        <collDate date="2008-01-01" event="start" cycle="Round 17"/>
+        <collDate date="2008-08-23" event="end" cycle="Round 17"/>
+        <collDate date="2008-09-01" event="start" cycle="Round 18"/>
+        <collDate date="2008-12-31" event="end" cycle="Round 18"/>
+        <collDate date="2009-01-01" event="start" cycle="Round 19"/>
+        <collDate date="2009-05-31" event="end" cycle="Round 19"/>
+        <collDate date="2009-06-23" event="start" cycle="Round 20"/>
+        <collDate date="2009-09-20" event="end" cycle="Round 20"/>
+        <collDate date="2009-06-26" event="start" cycle="Round 21"/>
+        <collDate date="2009-12-16" event="end" cycle="Round 21"/>
+        <collDate date="2010-01-20" event="start" cycle="Round 22"/>
+        <collDate date="2010-04-20" event="end" cycle="Round 22"/>
+        <nation abbr="KE">
+          KENYA
+        </nation>
+        <geogCover>
+          Demographic Surveillance Area
+        </geogCover>
+        <anlyUnit>
+          Individual
+        </anlyUnit>
+        <universe>
+          <![CDATA[As at 31st December,2010 the Nairobi HDSS covered 67,000 persons living in 28,000 households distributed across two informal settlements(Korogocho and Viwandani). All persons who sleep in the household prior to the day of the survey are included in the survey, while non-resident household members are excluded from the survey.
+
+The present universe started out through an initial census carried out on 1st August,2002 of the population living in the two Informal settlements (Korogocho and Viwandani). Regular visits have since then been made (3 times a year) to update information on births, deaths and migration that have occurred in the households observed at the initial census. New members join the population through a birth to a registered member, or an in-migration, while existing members leave through a death or out-migration.  The DSS adopts the concept of an open cohort that allows new members to join and regular members to leave and return to the system.]]>
+        </universe>
+        <dataKind>
+          Event history data
+        </dataKind>
+      </sumDscr>
+      <notes>
+        <![CDATA[- CORE DATA: Fertility, Mortality, Migration, Cause of Death Data
+- OPTIONAL MODULES: Marital Status, Schooling, Employments Status, Housing Conditions and Socio-Economic status, Child Vaccination.]]>
+      </notes>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <dataCollector abbr="SSU" affiliation="African Population and Health Research Center">
+          Statistics and Surveys Unit
+        </dataCollector>
+        <frequenc>
+          Three rounds in a year
+        </frequenc>
+        <sampProc>
+          This dataset is related to the whole demographic surveillance area population. The number of respondents has varied over the last 8 years (2002-2010), with variations being observed at both household level and at Individual level. As at 31st December,2010 the Nairobi HDSS covered 67,000 persons living in 28,000 households distributed across two informal settlements(Korogocho and Viwandani). The variations can be seen in the attached document: NUHDSS Indicators 2003-2010
+        </sampProc>
+        <collMode>
+          Proxy Respondent [proxy]
+        </collMode>
+        <resInstru>
+          <![CDATA[A list of questionnaires administered in the Nairobi HDSS, and their description is available in the External Documents section.
+
+Questionnaires are printed and administered in Swahili (The country's national language)
+
+The questionnaires for the Nairobi HDSS were structured questionnaires based on the INDEPTH Model Questionnaire and were translated into Swahili with some modifications and additions.After an initial review the questionnaires were translated back into English by an independent translator with no prior knowledge of the survey. The back translation from the Swahili version was independently reviewed and compared to the English original. Differences in translation were reviewed and resolved in collaboration with the original translators.
+The English and Swahili questionnaires were both piloted as part of the survey pretest.
+ 
+At baseline a household questionnaire was administered in each household, which collected various information on household members including sex, age, relationship, and orphanhood status. In later rounds questionnaires to track the migration of the population observed at baseline, and additonal questionnaires to capture demographic and health events happening to the population have been introduced. See the Exernal resources section for samples of these questionnaires.
+
+All questionnaires and modules are provided as external resources.]]>
+        </resInstru>
+        <sources/>
+        <collSitu>
+          <![CDATA[Interviews are conducted in Swahili (the country's national language), with translation into the local dialects in specific situations where the respondent is unable to understand Swahili.
+
+A detailed 4-week training of enumerators was conducted at baseline. Currently, 3-5 days refresher trainings are conducted at the start of each new round of data collection
+
+The field team constitutes 46 staff: 20 interviewers,6 quality control officers,7 team leaders, 2 supervisors, and 1 field coordinator.
+On average a complete household interview takes between 30 minutes and 45 minutes.
+Interviews took place everyday throughout the field work period, with teams being permitted to take only one day off per week.   At baseline an interview took on average between 30 and 45 minutes to complete.  
+
+Prior to the baseline detailed community sensitization was undertaken, in latter rounds however community liaison has constituted, feedback barazas, and intervention activities targeted to address community health-related problems identified during the data collection. Intervention activities are carried out through piggy-back studies with targeted interventions, for example a maternal and child health study had a component of interventions to address mother and child health-complications, or through bi-annual health camps at which free medical treatment is provided for conditions identified as prevalent in the community during data collection.]]>
+        </collSitu>
+        <actMin>
+          <![CDATA[Interviewing is conducted by teams of interviewers. Each interviewing team comprised 3-4 interviewers, a field editor and a site supervisors.  
+
+The role of the supervisor is to coordinate field data collection activities, including management of the field teams, supplies and equipment, finances, maps and listings, coordinate with local authorities concerning the survey plan and make arrangements for accomodation and travel.  Additionally, the field supervisor assigned the work to the interviewers, spot checked work, maintained field control documents, and sent completed questionnaires and progress reports to the central office.  
+
+The field editor is responsible for reviewing each questionnaire at the end of the day, checking for missed questionnaires, skip errors, fields incorrectly completed, and checking for inconsistencies in the data.  The field editor also observed interviews and conducted review sessions with interviewers.
+
+Responsibilities of the supervisors and field editors are described in the Instructions for Supervisors and Field Editors, together with the different field controls that were in place to control the quality of the fieldwork.]]>
+        </actMin>
+        <cleanOps>
+          <![CDATA[Data editing took place at a number of stages throughout the processing, including:
+a) Office editing and coding
+b) During data entry
+c) Structure checking and completeness
+d) Secondary editing
+e) Structural checking of STATA data files
+Detailed documentation of the editing of data can be found in the "Standard Procedures Manual" document provided as an external resource.
+
+Where changes were made by the program, a cold deck imputation is preferred; where incorrect values were imputed using existing data from another dataset.  If cold deck imputation was found to be insufficient, hot deck imputation was used,  In this case, a missing value was imputed from a randomly selected similar record in the same dataset.  
+
+Some corrections are made automatically by the program(80%) and the rest by visual control of the questionnaires (20%)
+
+1. 100% forms filledi n by FRAs are rechecked for completeness, ensured that all the necessary event forms are filled in.
+2. Spot checks are done on field over data collection by FRAs for reliability of data.
+3. FRS instructs revisits wherever required.
+4. Forms are checked on sample basis
+5. Checks if all the necessary event forms are filled in.
+6. Forms wiht inconsistencies identified at the time of entry are sent back to the field.
+7. Creating and managing data entry checks for picking up inconsistencies
+8. Monitoring field work: balancing work target and quality.
+9. Dealing with data inconsistencies at data level and giving feedbacks to field staff.
+10. Conducting training and refresher training wherever required.
+11. Data cleaning]]>
+        </cleanOps>
+      </dataColl>
+      <notes>
+        <![CDATA[Data entry was performed manually at APHRC's headquarters on desktop computers and using an in-house built software with a Visual Basic.Net front-end and  Microsoft SQL Server back-end. Double data entry was carried out on 10% of the questionnaires.
+
+Data were processed in clusters, with each cluster being processed as a complete unit through each stage of data processing.  Each cluster went through the following steps:
+1.Questionnaire Reception
+2. Office editing and coding
+3. Data entry
+4. Structure and completeness checking
+5. Verification entry
+6. Comparison of verification data
+7. Backup of raw data
+8. Secondary editing
+9. Edited data back up
+
+After all clusters are processed, all data was concatenated together and then the following steps are completed for all data files:
+10)Export to STATA 10 in 2 files (migration and employment history, migration & employment calendar)
+11)Recoding of variables needed for analysis
+12)Structural checking of STATA 10 files
+14) Data quality tabulations
+15) Production of analysis tabulations
+
+Details of each of these steps can be found in the "Standard Procedures Manual"]]>
+      </notes>
+      <anlyInfo>
+        <respRate>
+          <![CDATA[Over the years the response rate at household level has varied between 95% and 97% with response rate at Individual Level varying between 92% and 95%. Challenges to acheiving a 100% response rate have included:
+
+1. High Population Mobility within the study area
+2. High Population Attrition
+3. Respondent Fatigue
+4. Security in some areas]]>
+        </respRate>
+        <EstSmpErr>
+          Not applicable for Surveillance Data
+        </EstSmpErr>
+        <dataAppr>
+          <![CDATA[A series of data quality tables and graphs are available to review the structure of the population under observation, and the quality of the data collected:
+-Age distribution of the household population
+-Age distribution of eligible women and interviewed women
+-Percent of observations with missing information on selected variables
+-Graph of male and female population by single years of age
+-Population pyramid
+
+INDEPTH Data Quality Metrics were also generated:-
+-% of illegal start events
+-% of illegal end events
+-% of illegal event transitions]]>
+        </dataAppr>
+      </anlyInfo>
+    </method>
+    <dataAccs>
+      <setAvail>
+        <origArch>
+          Nairobi (KE031)
+        </origArch>
+      </setAvail>
+      <useStmt>
+        <confDec required="yes">
+          <![CDATA[Before being granted access to the dataset, all users have to formally agree:
+1. To make no copies of any files or portions of files to which s/he is granted access except those authorized by the data depositor.
+2.Not to use any technique in an attempt to learn the identity of any person, establishment, or sampling unit not identified on public use data files.  
+3. To hold in strictest confidence the identification of any establishment or individual that may be inadvertently revealed in any documents or discussion, or anlaysis.  Such inadvertently revealed in any documents or discussion, or analysis.  Such inadvertent identification revealed in her/his analysis will be, immediatley brought to the attention of the data depositor.
+
+This statement does not replace a more comprehensive data agreement(see Data Use Agreement Guidelines for Internal/External users(External Resources().]]>
+        </confDec>
+        <contact affiliation="African Population and Health Research Center" URI="www.aphrc.org" email="datarequests@aphrc.org">
+          Statistics and Surveys Unit
+        </contact>
+        <citReq>
+          "The African Population and Health Research Center, Nairobi Urban HDSS Core Micro Data Set 2000-2010. Feb 2013. Provided by the INDEPTH Network Data Repository. www.indepth-network.org &lt;http://www.indepth-network.org&gt;. doi:10.1234/ INDEPTH.KE031.1.v2" Version 2.0 of the licensed public use dataset(February 2013), provided by the APHRC. www.aphrc.org
+        </citReq>
+        <conditions>
+          <![CDATA[Access to INDEPTH Network data is govern by the INDEPTH Data Access and Sharing policy (see ….). INDEPTH distinguished four levels of access: 
+
+a. Open Access.  Except for attribution of origin, no conditions and prior registration are applicable to the use of the data. 
+
+b. Licensed Access. A registration by a prospective data user is required on the INDEPTH data repository with a click through agreement to conditions of use. 
+
+c. Restricted Licensed Access: In addition to the requirements listed under b. the prospective data user will be required to provide a formal endorsement letter from the institution s/he is affiliated with. 
+
+d. Closed Access: This applies to highly sensitive or individually identifiable data. Such data are normally available to prospective users only through controlled-on-site access and/or in collaboration with the member centres involved. 
+
+This general statement should be followed by the actual conditions of use applicable to this dataset.  
+
+Example: 
+This data is made available for licensed access under the following conditions: 
+
+1. Data and other material provided by INDEPTH will not be redistributed or sold to other individuals, institutions or organisations without INDEPTH's written agreement. 
+
+2. In the case of multi-centre datasets, data originating from a single contributing member centre of the INDEPTH Network may not be analysed or reported on in isolation without the express permission of the member centre concerned.  
+
+3. No attempt will be made to re-identify respondents, and there will be no use of the identity of any person or establishment discovered inadvertently. Any such discovery will be reported immediately to INDEPTH. 
+
+4. No attempt will be made to produce links between datasets provided by INDEPTH or between INDEPTH data and other datasets that could identify individuals. 
+
+5. Any books, articles, conference papers, theses, dissertations, reports or other publications employing data obtained from INDEPTH will cite the source, in line with the citation requirement provided with the dataset. 
+
+6. An electronic copy of all publications based on the requested data will be sent to INDEPTH. 
+
+7. The original collector of the data, INDEPTH, and the relevant funding agencies bear no responsibility for the data's use or interpretation or inferences based upon it.]]>
+        </conditions>
+        <disclaimer>
+          The user of the data acknowledges that the original collector of the data, INDEPTH, and the relevant funding agencies bear no responsibility for the data's use or interpretation or inferences based upon it
+        </disclaimer>
+      </useStmt>
+    </dataAccs>
+  </stdyDscr>
+  <fileDscr ID="F1" URI="KE031.MicroDataset.V5.Nesstar?Index=0&amp;Name=KE031.2.v3">
+    <fileTxt>
+      <fileName>
+        KE031.2.NSDstat
+      </fileName>
+      <fileCont>
+        This file contains the INDEPTH Core Microdataset. The file was generated using ETL through Pentaho Kettle.
+      </fileCont>
+      <dimensns>
+        <caseQnty>
+          411118
+        </caseQnty>
+        <varQnty>
+          20
+        </varQnty>
+      </dimensns>
+      <fileType>
+        Nesstar 200801
+      </fileType>
+      <filePlac>
+        Statistics and Surveys Unit (SSU)
+      </filePlac>
+      <dataChck>
+        <![CDATA[The following processing checks are carried out during the ETL process:-
+
+-Range Checks: This ensures that every variable contains only data within a predefined domain of valid values
+-Skip Checks: This will verify that skip patterns have been followed appropriately during data collection and data entry.
+-Consistency Checks: These checks ensure that values from one question are consistent with values from another question. This is especially important where two or more variables contain similar or interlinked information.  
+-Typographical Checks: These checks are necessary to identify and correct typographical and spelling errors in variables.
+-Checks Against Reference Data: These checks ensure that newly added data is consistent with existing data about the statistical unit under survey.  This is especially important for longitudinal surveys and embedded studies.  This check could be done by pre-printing information on questionnaires during pre-survey activities.
+
+Some corrections are made automatically by the program(80%) , others by visual control of the questionnaires (20%)
+
+Detailed documentation of the editing of data can be found in the "Standard Procedures Manual" document provided as an external resource.]]>
+      </dataChck>
+      <dataMsng>
+        <![CDATA[Missing Data is coded as follows:
+
+-Missing Data: No data or a missing data is assigned the code(95,995,etcetera). All missing values should be coded as 5,95,995, etcetera, depending on the value of the largest valid code in that variable.  
+
+- Response Not Within the Pre-Defined Range/Domain: A data code(96,996,etcetera) provided where response was outside the range/domain pre-defined during study design.  A variable that contains this code is often succeeded by a variable that contains the specific response.  Check the succeeding variable to ensure no missing values exist where a response was expected.
+  
+-Refusals: A data code (97,997,etcetera) is used to indicate that the respondent refused to respond to this question.
+
+-"Don't Know" Responses: A data code(98,998,etcetera) is used to indicate that the respondent did not know the answer to the question.
+
+-Skipped Questions: A data code(99,999,etcetera) is used to indicate that the respondent was not eligible to answer the particular question.]]>
+      </dataMsng>
+      <verStmt>
+        <version>
+          Version 2.0
+        </version>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr>
+    <varGrp ID="VG1" type="subject" var="V2 V3">
+      <labl>
+        Centre Related Variables
+      </labl>
+      <txt>
+        This group has identifiers for country and centre.
+      </txt>
+      <defntn>
+        These are the variables that uniquely identify the Center and the Country from which these data were created.
+      </defntn>
+    </varGrp>
+    <varGrp ID="VG2" type="subject" var="V4 V5 V6 V7">
+      <labl>
+        Individual Related Variables
+      </labl>
+    </varGrp>
+    <varGrp ID="VG4" type="subject" var="V1 V8 V9 V10 V11 V12" varGrp="VG5 VG7">
+      <labl>
+        Event Related Variables
+      </labl>
+    </varGrp>
+    <varGrp ID="VG5" type="subject" var="V13 V14">
+      <labl>
+        Birth Related Variables
+      </labl>
+    </varGrp>
+    <varGrp ID="VG7" type="subject" var="V15 V16 V17 V18 V19 V20">
+      <labl>
+        Death Related Variables
+      </labl>
+    </varGrp>
+    <var ID="V1" name="RecNr" files="F1" dcml="0" intrvl="contin">
+      <labl>
+        RecNr
+      </labl>
+      <valrng>
+        <range min="1" max="411118"/>
+      </valrng>
+      <sumStat type="vald">
+        411118
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <sumStat type="min">
+        1
+      </sumStat>
+      <sumStat type="max">
+        411118
+      </sumStat>
+      <sumStat type="mean">
+        205559.5
+      </sumStat>
+      <sumStat type="stdev">
+        118679.688
+      </sumStat>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V2" name="CountryId" files="F1" dcml="0" intrvl="discrete">
+      <labl>
+        CountryId
+      </labl>
+      <valrng>
+        <range min="254" max="254"/>
+      </valrng>
+      <sumStat type="vald">
+        411118
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <catgry>
+        <catValu>
+          254
+        </catValu>
+        <catStat type="freq">
+          411118
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V3" name="CentreId" files="F1" intrvl="discrete">
+      <location width="5"/>
+      <labl>
+        CentreId
+      </labl>
+      <sumStat type="vald">
+        411118
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <catgry>
+        <catValu>
+          KE031
+        </catValu>
+        <catStat type="freq">
+          411118
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V4" name="IndividualId" files="F1" intrvl="discrete">
+      <location width="14"/>
+      <labl>
+        IndividualId
+      </labl>
+      <sumStat type="vald">
+        411118
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V5" name="Sex" files="F1" dcml="0" intrvl="discrete">
+      <labl>
+        Sex
+      </labl>
+      <valrng>
+        <range min="1" max="2"/>
+      </valrng>
+      <sumStat type="vald">
+        411118
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <catgry>
+        <catValu>
+          1
+        </catValu>
+        <catStat type="freq">
+          223752
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2
+        </catValu>
+        <catStat type="freq">
+          187366
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V6" name="DoB" files="F1" intrvl="discrete">
+      <location width="19"/>
+      <labl>
+        DoB
+      </labl>
+      <sumStat type="vald">
+        411118
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V7" name="EventCount" files="F1" dcml="0" intrvl="contin">
+      <labl>
+        EventCount
+      </labl>
+      <valrng>
+        <range min="2" max="26"/>
+      </valrng>
+      <sumStat type="vald">
+        411118
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <sumStat type="min">
+        2
+      </sumStat>
+      <sumStat type="max">
+        26
+      </sumStat>
+      <sumStat type="mean">
+        4.591
+      </sumStat>
+      <sumStat type="stdev">
+        2.999
+      </sumStat>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V8" name="EventNr" files="F1" dcml="0" intrvl="contin">
+      <labl>
+        EventNr
+      </labl>
+      <valrng>
+        <range min="1" max="26"/>
+      </valrng>
+      <sumStat type="vald">
+        411118
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <sumStat type="min">
+        1
+      </sumStat>
+      <sumStat type="max">
+        26
+      </sumStat>
+      <sumStat type="mean">
+        2.796
+      </sumStat>
+      <sumStat type="stdev">
+        2.161
+      </sumStat>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V9" name="EventCode" files="F1" intrvl="discrete">
+      <location width="3"/>
+      <labl>
+        EventCode
+      </labl>
+      <sumStat type="vald">
+        411118
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <catgry>
+        <catValu>
+          DTH
+        </catValu>
+        <catStat type="freq">
+          2212
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          ENT
+        </catValu>
+        <catStat type="freq">
+          94644
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          ENU
+        </catValu>
+        <catStat type="freq">
+          6334
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          EXT
+        </catValu>
+        <catStat type="freq">
+          73608
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          IMG
+        </catValu>
+        <catStat type="freq">
+          90959
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          OBE
+        </catValu>
+        <catStat type="freq">
+          60161
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          OMG
+        </catValu>
+        <catStat type="freq">
+          69578
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          UNK
+        </catValu>
+        <catStat type="freq">
+          13622
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V10" name="EventDate" files="F1" intrvl="discrete">
+      <location width="19"/>
+      <labl>
+        EventDate
+      </labl>
+      <sumStat type="vald">
+        411118
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V11" name="ObservationDate" files="F1" dcml="0" intrvl="discrete">
+      <labl>
+        ObservationDate
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        411118
+      </sumStat>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          411118
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V12" name="LocationId" files="F1" intrvl="discrete">
+      <location width="10"/>
+      <labl>
+        LocationId
+      </labl>
+      <sumStat type="vald">
+        411116
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V13" name="MotherId" files="F1" dcml="0" intrvl="discrete">
+      <labl>
+        MotherId
+      </labl>
+      <universe clusion="I">
+        All Resident females who have experienced a Birth Event.
+      </universe>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        411118
+      </sumStat>
+      <txt>
+        A numeric value which lists the Individual Identifier of the mother.
+      </txt>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          411118
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V14" name="DeliveryId" files="F1" dcml="0" intrvl="discrete">
+      <labl>
+        DeliveryId
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        411118
+      </sumStat>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          411118
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V15" name="Cause1" files="F1" dcml="0" intrvl="discrete">
+      <labl>
+        Cause1
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        411118
+      </sumStat>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          411118
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V16" name="Cause2" files="F1" dcml="0" intrvl="discrete">
+      <labl>
+        Cause2
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        411118
+      </sumStat>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          411118
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V17" name="Cause3" files="F1" dcml="0" intrvl="discrete">
+      <labl>
+        Cause3
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        411118
+      </sumStat>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          411118
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V18" name="Likelihood1" files="F1" dcml="0" intrvl="discrete">
+      <labl>
+        Likelihood1
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        411118
+      </sumStat>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          411118
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V19" name="Likelihood2" files="F1" dcml="0" intrvl="discrete">
+      <labl>
+        Likelihood2
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        411118
+      </sumStat>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          411118
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V20" name="Likelihood3" files="F1" dcml="0" intrvl="discrete">
+      <labl>
+        Likelihood3
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        411118
+      </sumStat>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          411118
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+  </dataDscr>
+</codeBook>

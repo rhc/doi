@@ -1,0 +1,1157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codeBook version="1.2.2" ID="INDEPTH.IN021.1.v2" xml-lang="en" xmlns="http://www.icpsr.umich.edu/DDI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.icpsr.umich.edu/DDI http://www.icpsr.umich.edu/DDI/Version1-2-2.xsd">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>
+          Vadu Core Dataset 2002-2010
+        </titl>
+        <IDNo>
+          DDI.INDEPTH.IN021.1.v2
+        </IDNo>
+      </titlStmt>
+      <rspStmt>
+        <othId role="Documentation of Vadu Dataset" affiliation="INDEPTH  Network and Vadu HDSS, KEMHRC Pune">
+          <p>
+            Nidhi Patharia
+          </p>
+        </othId>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="iS2TT" affiliation="INDEPTH Network" role="Documentation of the study">
+          iSHARE2 Technical Team
+        </producer>
+        <producer abbr="IN021" affiliation="KEMHRC" role="Documentation of the study">
+          Vadu
+        </producer>
+        <prodDate date="2013-01-22">
+          2013-01-22
+        </prodDate>
+        <software version="4.0.8" date="2012-05-14">
+          Nesstar Publisher
+        </software>
+      </prodStmt>
+      <verStmt>
+        <version>
+          Version 2 (January 2013)
+        </version>
+        <notes>
+          Raw microdataset attached to the study - 2013-01-22
+        </notes>
+      </verStmt>
+      <holdings URI="http://www.indepth-ishare.org"/>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>
+          Vadu Core Surveillance Dataset 2002 - 2010
+        </titl>
+        <IDNo>
+          INDEPTH.IN021.1.v2
+        </IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="VADU HDSS, KEMHRC (IN021)">
+          Dr. Sanjay Juvekar
+        </AuthEnty>
+        <othId role="Conceptualized formation and establishment of Vadu HDSS.  Also offered seed money from his Fellowship received from  Bill and Milinda Gates Institution of Population and Reproductive Health, Johns Hopkins Bloomberg School of Public Health, USA" affiliation="Vadu HDSS, KEMHRC Pune">
+          <p>
+            Dr. Siddhi Vinayak Hirve
+          </p>
+        </othId>
+        <othId role="Data management software development (from 2003 to 2012)" affiliation="Vadu HDSS, KEMHRC Pune">
+          <p>
+            Trupti Varpe
+          </p>
+        </othId>
+        <othId role="Data management software development (from 2003 to 2012)" affiliation="I2IT, Pune">
+          <p>
+            Padma Jhua
+          </p>
+        </othId>
+        <othId role="Data management software development (from 2003 to 2012)" affiliation="Vadu HDSS, KEMHRC Pune">
+          <p>
+            Neeraj Kashyap
+          </p>
+        </othId>
+        <othId role="Software development wef 2012 " affiliation="INDEPTH  Network and Vadu HDSS, KEMHRC Pune">
+          <p>
+            Tathagata Bhattacharjee
+          </p>
+        </othId>
+        <othId role="Vadu HDSS website management " affiliation="INDEPTH  Network and Vadu HDSS, KEMHRC Pune">
+          <p>
+            Nidhi Patharia
+          </p>
+        </othId>
+        <othId role="Administration and Finance" affiliation="KEMHRC, Pune">
+          <p>
+            Rajlaxmi Rangan
+          </p>
+        </othId>
+        <othId role="Site Administration" affiliation="Vadu HDSS, KEMHRC Pune">
+          <p>
+            Ramesh pardeshi
+          </p>
+        </othId>
+        <othId role="Site Administration" affiliation="Vadu HDSS, KEMHRC Pune">
+          <p>
+            Shirish Kathale
+          </p>
+        </othId>
+        <othId role="Advise and Support" affiliation="KEMHRC, Pune">
+          <p>
+            Dr V S Padbidri
+          </p>
+        </othId>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="INDEPTH" role="Offered technical support through in establishemnt of Vadu HDSS and its full membership to Vadu HDSS.">
+          The International Network for the Demographic Evaluation of Populations and Their Health, Accra Ghana
+        </producer>
+        <producer affiliation="VADU HDSS, KEMHRC Pune (IN021)" role="Manager of Vadu HDSS">
+          Hanif Shaikh
+        </producer>
+        <producer affiliation="VADU HDSS, KEMHRC Pune (IN021)" role="Supervisor and Facilitation of Data Collection                         ">
+          Bharat Chaudhary
+        </producer>
+        <producer affiliation="INDEPTH  Network and Vadu HDSS, KEMHRC Pune" role="Data Processing  and Management">
+          Somnath Sambhudas
+        </producer>
+        <producer affiliation="VADU HDSS, KEMHRC Pune (IN021)" role="Quality Assurance">
+          Girish Dayma
+        </producer>
+        <producer abbr="FRA / FRS" affiliation="VADU HDSS, KEMHRC Pune (IN021)" role="Data Collection">
+          Field Research Assistants/ Field Research Assistants/ Field Research Assistants / Supervisors
+        </producer>
+        <software version="4.0.8" date="2012-05-14">
+          Nesstar Publisher
+        </software>
+        <fundAg>
+          Self Funded
+        </fundAg>
+      </prodStmt>
+      <distStmt>
+        <contact affiliation="Vadu HDSS KEMHRC (IN021)" email="sanjay.juvekar@gmail.com">
+          Sanjay Juvekar
+        </contact>
+        <contact affiliation="INDEPTH Network">
+          iSHARE2 Helpdesk
+        </contact>
+      </distStmt>
+      <serStmt>
+        <serName>
+          Demographic Surveillance
+        </serName>
+        <serInfo>
+          <![CDATA[It is a longitudinal survey, the data collection for HDSS Vadu started in 2002. We do a six monthly data collection.  As of 30th June 2012, we have completed 18 rounds.]]>
+        </serInfo>
+      </serStmt>
+      <verStmt>
+        <version date="2013-01-21">
+          v1: Core Microdata 2002 - 2010, for internal use only
+        </version>
+        <notes>
+          V2: New dataset attached
+        </notes>
+      </verStmt>
+    </citation>
+    <stdyInfo>
+      <subject>
+        <keyword>
+          Fertility
+        </keyword>
+        <keyword>
+          Mortality
+        </keyword>
+        <keyword>
+          Migration
+        </keyword>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Demography [N01.224]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Emigration and Immigration [N01.224.625.350]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Mortality [N01.224.935.698]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Cause of Death [N01.224.935.698.100]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Birth Rate [N01.224.935.849.500]
+        </topcClas>
+      </subject>
+      <abstract>
+        <![CDATA[Vadu Rural Health Program, KEM Hospital Research Centre Pune has a rich tradition in health care and development being in the forefront of needs-based, issue-driven research over almost 35 years. During the decades of 1980 and 1990 the research at Vadu focused on mother and child with epidemiological and social science research exploring low birth weight, child survival, maternal mortality, safe abortion and domestic violence. The research portfolio has ever since expanded to include adult health and aging, non-communicable and communicable diseases and to clinical trials in recent years. It started with establishment of Health and Demographic Surveillance System <http://www.kemhospitalvadu.org/hdss.asp> at Vadu (HDSS Vadu) in August, 2002 that seeks to establish a quasi-experimental design setting to allow evaluation of impact of health interventions as well as monitor secular trends in diseases, risk factors and health behavior of humans. 
+
+Vadu has struck research alliances with Regional, National and International Organizations. The iSHARE (www.indepth-ishare.org <http://www.indepth-ishare.org>)- is a novel globally applicable solution from Vadu for enabling INDEPTH Network members to share their data on the web. IMVAC is an international collaboration with the Chest Research Foundation, Pune and the Imperial College, London to better understand COPD in developing world context. The Influenza Disease Burden in India (IDBI) study, in partnership with the National Institute of Virology, Pune and CDC Atlanta, is well placed to follow the influenza in rural areas. Vadu's foray into large community based GCP compliant phase II/III vaccine trials for meningitis, measles, HIB, typhoid and rota-virus is another important step in getting safe, effective and yet less expensive/affordable indigenously produced vaccines to licensure and use in India and globally. A recent strategic 5-year award jointly with paediatrics department of KEM, from the Dept. of Biotechnology, GOI is helping us build capacity to develop a Core Vaccine Research Unit at Vadu. 
+An exciting array of Translational Research (G2P studies) is ongoing at Vadu in collaboration with Institute of Genomics & Integrative Biology, GOI from both Ayurvedic and disease perspective. Vadu has extensively contributed to Project Ayurgenomics: Integration of Ayurveda to Genomics for field based research. 10000 volunteers from Vadu area participated in this study. Vadu has also developed a detailed phenotyping (DP) unit and molecular biology laboratory for primary investigations. The DP unit includes State of the art labs for heart rate variability testing, spirometry, skin testing, anthropometry and gustatory testing. Probably the only molecular biology lab in rural area, our lab is well equipped for RNA and DNA isolation and detection besides a dedicated fully equipped section for the clinical trials laboratory work. 
+
+Today's strength of Vadu is its ability to integrate research among and rational medical service delivery to the populations with support from the community and with capacity building of this very community in conducting community or hospital based research. Vadu strives to address its research needs through partnerships and collaborations with national and international institutions guided by principles of interdependence, equality, technology transfer and joint data ownership as also authorship. Above all, we believe in ethics and practice in conducting utmost ethical research.
+
+We independently track vital events including births, deaths, causes of death, pregnancy outcome, migrations and marital status changes and serves to monitor trends in fertility and mortality inter alia over time. 
+
+The word "Demographic Surveillance" means to keep close track of the population dynamics. Vadu HDSS deals with keeping track of health issues and demographic changes in Vadu rural health program (VRHP) area. It is one of the most promising projects of National relevance that aims at establishing a quasi-experimental intervention research setting with objectives.
+
+1. To create a longitudinal data base for
+           a. Efficient service delivery,
+           b. Future research 
+           c. Linking all past micro-studies in Vadu area 
+2. Monitoring trends in public health problems 
+3. Keeping track of population dynamics 
+4. Evaluation of intervention services.]]>
+      </abstract>
+      <sumDscr>
+        <timePrd date="2004-01-15" event="start" cycle="1 year"/>
+        <timePrd date="2004-12-31" event="end" cycle="1 year"/>
+        <collDate date="2002-10-15" event="start" cycle="Round 1"/>
+        <collDate date="2003-11-30" event="end" cycle="Round 1"/>
+        <collDate date="2004-01-01" event="start" cycle="Round 2"/>
+        <collDate date="2004-06-30" event="end" cycle="Round 2"/>
+        <collDate date="2004-07-01" event="start" cycle="Round 3"/>
+        <collDate date="2004-12-31" event="end" cycle="Round 3"/>
+        <collDate date="2005-01-01" event="start" cycle="Round 4"/>
+        <collDate date="2005-06-30" event="end" cycle="Round 4"/>
+        <collDate date="2005-07-01" event="start" cycle="Round 5"/>
+        <collDate date="2005-12-31" event="end" cycle="Round 5"/>
+        <collDate date="2006-01-01" event="start" cycle="Round 6"/>
+        <collDate date="2006-06-30" event="end" cycle="Round 6"/>
+        <collDate date="2006-07-01" event="start" cycle="Round 7"/>
+        <collDate date="2006-12-31" event="end" cycle="Round 7"/>
+        <collDate date="2007-01-01" event="start" cycle="Round 8"/>
+        <collDate date="2007-06-30" event="end" cycle="Round 8"/>
+        <collDate date="2007-07-01" event="start" cycle="Round 9"/>
+        <collDate date="2007-12-31" event="end" cycle="Round 9"/>
+        <collDate date="2008-01-01" event="start" cycle="Round 10"/>
+        <collDate date="2008-06-30" event="end" cycle="Round 10"/>
+        <collDate date="2008-07-01" event="start" cycle="Round 11"/>
+        <collDate date="2008-12-31" event="end" cycle="Round 11"/>
+        <collDate date="2009-01-01" event="start" cycle="Round 12"/>
+        <collDate date="2009-06-30" event="end" cycle="Round 12"/>
+        <collDate date="2009-07-01" event="start" cycle="Round 13"/>
+        <collDate date="2009-12-31" event="end" cycle="Round 13"/>
+        <collDate date="2010-01-01" event="start" cycle="Round 14"/>
+        <collDate date="2010-06-30" event="end" cycle="Round 14"/>
+        <collDate date="2010-07-01" event="start" cycle="Round 15"/>
+        <collDate date="2010-12-31" event="end" cycle="Round 15"/>
+        <nation abbr="IN">
+          INDIA
+        </nation>
+        <geogCover>
+          <![CDATA[Vadu HDSS falls in two administrative blocks namely:
+1) Shirur
+2) Haweli
+
+of pune district in western India.
+
+It covers an area of approximately 232 km2]]>
+        </geogCover>
+        <anlyUnit>
+          Individual
+        </anlyUnit>
+        <universe>
+          Vadu HDSS covers as many as 40,000 households having 150,000 population spread across 22 villages.
+        </universe>
+        <dataKind>
+          Event history data
+        </dataKind>
+      </sumDscr>
+      <notes>
+        <![CDATA[The Scope of demographic surveillance includes: HOUSEHOLD: demographic characteristics, poor households, living conditions, social security, access to facilities and services, education levels, employment status, migration, fertility, mortality
+
+- HOUSEHOLD: Household characteristics, household listing, occupation,education and maternal mortality.
+
+- Individual: Individual listing, Education, Occupation, Marital Status and Movements.
+
+-Women: Pregnancy Monitoring]]>
+      </notes>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <dataCollector affiliation="Vadu HDSS, KEMHRC (IN021)">
+          Bharat Chaudhary
+        </dataCollector>
+        <frequenc>
+          <![CDATA[Annually 
+Two rounds per year]]>
+        </frequenc>
+        <sampProc>
+          Vadu area including 22 villages in two administrative blocks is the study area. This area was selected as this is primarily coverage area of Vadu Rural Health Program which is in function since more than four decade. Every individual household is included in HDSS. There is no sampling strategy employed as 100% population coverage in the area is expected.
+        </sampProc>
+        <collMode>
+          Face-to-face [f2f]
+        </collMode>
+        <resInstru>
+          <![CDATA[1) Language of communication: Marath & Hindii.
+2) Questionnaire may be downloaded from http://www.kemhospitalvadu.org/data_doc.php]]>
+        </resInstru>
+        <sources/>
+        <collSitu>
+          <![CDATA[1) Training of Fieldworkers:
+
+Training is planned and executed at the centre ie at Vadu HDSS every six months before the data collection round begins. Five days training session is conducted and every training session is evaluated by both the trainees and trainers. Trainers complete daily evaluation by asking questions in order to identify problems that trainees had experienced during that particular day’s training. Areas that needed re- training are revisited the following day. At the end of the training moc interviews are conducted by the trainees.
+
+Survey:
+
+The data collection approach revolves around the use of a team of Field Research Assistants and Field Research Supervisors. The team is assigned a fixed number of EAs to enumerate. The team works together in each sampled EA and moves to the next one, once the targeted EA had been completed. The advantage of this method is that the supervisor is in daily in contact with the team, which improves the quality of the data collection during fieldwork.
+
+Supervisors go to the FRA who have completed the interview and immediately check the questionnaire for errors, consistency and completeness. Where errors are found, the FRA is sent back to the household to correct the information that had been recorded previously. If the supervisors are satisfied, they sign off the questionnaire and store it in a safe place. Supervisors do the same for all the members of their team until the EA had been completed. The team then moves to another selected EA.
+
+The interview is conducted face - to -face which takes approximately 15 - 30 minutes each and this entire process takes around 5 months for every round.
+
+2) Team Size: 20 - 40
+
+3) Language: Marathi & Hindi]]>
+        </collSitu>
+        <actMin>
+          <![CDATA[Field Research Assistants (FRA) collect data from the field on hard copies. There is one Field Research Supervisor (FRS) for every 5 to 6 FRA. Two Field Coordinators supervise over FRS.  Besides the fiedl staffs Vadu HDSS has supervisors in each of the departments including Data Quality Assurance and Data Managerment team.  Entire HDSS is managed by a Project Manager under the leadership of the Center Leader.]]>
+        </actMin>
+        <cleanOps>
+          <![CDATA[Entered data undergo a data cleaning process. During the cleaning process all error data are either corrected in consultaiton with the data QC team or the respective forms are sent back to the field for re collection of correct data.  Data editors have the access to the raw dataset for making necessary editing after corrected data are bought from the field.]]>
+        </cleanOps>
+      </dataColl>
+      <notes>
+        <![CDATA[1. Preparation of list of households was automated using HDSS software built using PHP and MySQL
+2. All the forms are manually checked to ensure all census forms were completed.
+3. Data Entry was done manually using HDSS software built using PHP and MySQL. There are 5 Data Entry Operators.
+4. Automated field validation was used on all the forms along with pre manual checking.
+5. MySQL Database was used.
+6. The ETL process is performed using Pentaho Data Integration Community Edition (PDI CE) - Kettle 4.2. All necessary validation checks, quality checks and transformations are designed and implemented using PDI and inconsistencies identified are eliminated from the data set and thus the core micro data set is produced.]]>
+      </notes>
+      <anlyInfo>
+        <respRate>
+          99.99%
+        </respRate>
+        <dataAppr>
+          <![CDATA[0% of illegal start events
+0% of illegal end events
+0% of illegal event transitions]]>
+        </dataAppr>
+      </anlyInfo>
+    </method>
+    <dataAccs>
+      <setAvail>
+        <origArch>
+          Vadu (IN021)
+        </origArch>
+      </setAvail>
+      <useStmt>
+        <confDec required="yes">
+          <![CDATA[All hard copies of the data are stored in safes with restrictrd access to concerend researchers only.  Enterd data are anonimized before sharing in case necessary; with persons interested in analyzing the data for scientific purposes.]]>
+        </confDec>
+        <contact affiliation="VADU HDSS KEMHRC (IN021)" email="sanjay.juvekar@gmail.com">
+          Dr. Sanjay Juvekar
+        </contact>
+        <citReq>
+          Vadu Core Micro Data Set 2000-2010. Oct 2012. Provided by the INDEPTH Network Data Repository. www.indepth-network.org.doi.10.1234/INDEPTH.IN021.1.v1
+        </citReq>
+        <conditions>
+          <![CDATA[By virtue of being member of INDEPTH Network, Vadu HDSS it is mandatory to share data for public access. While doing so, strict confidentiality is maintained by anonimixing the data that are identified onyl with numbers and no names are disclosed.  Data sharing happens as per INDEPTH Data Sharing and Access policy and only within India's data sharing and access policy.]]>
+        </conditions>
+        <disclaimer>
+          The user of the data acknowledges that the original collector of the data, INDEPTH, and the relevant funding agencies bear no responsibility for the data's use or interpretation or inferences based upon it.
+        </disclaimer>
+      </useStmt>
+    </dataAccs>
+  </stdyDscr>
+  <fileDscr ID="F3" URI="DDI.INDEPTH.IN021.1.v2.Nesstar?Index=0&amp;Name=IN021.2.v2">
+    <fileTxt>
+      <fileName>
+        IN021.2.NSDstat
+      </fileName>
+      <fileCont>
+        This file contains INDEPTH Core microdataset. This file was generated using ETL through Pentaho Kettle.
+      </fileCont>
+      <dimensns>
+        <caseQnty>
+          421246
+        </caseQnty>
+        <varQnty>
+          20
+        </varQnty>
+      </dimensns>
+      <fileType>
+        Nesstar 200801
+      </fileType>
+      <dataChck>
+        <![CDATA[The following processing checks are done during the ETL process.
+
+1. If the first event is legal. Like the first event must beenumeration, birth or inmigration.
+2. If the last event is legal. Like the last event must be end of observtion, death or outmigration.
+3. If the trasition events are legal.
+    The list of legal transitions:
+    
+    Birth followed by death
+    Birth followed by exit
+    Birth followed by end of observation
+    Birth followed by outmigration
+    
+    Death followed by none
+    
+    Entry followed by death
+    Entry followed by exit
+    Entry followed by end of observation
+    Entry followed by outmigration
+    Enumeration followed by death
+    Enumeration followed by exit
+    Enumeration followed by outmigration
+    
+    Exit followed by entry
+    
+    Inmigration followed by Death
+    Inmigration followed by exit
+    Inmigration followed by end of observation
+    Inmigration followed by outmigration
+    
+    End of observation followed by none
+    
+    Outmigration followed by none
+    Outmigration followed by enumeration
+    Outmigration followed by inmigration
+    
+    The list of illegal transitions:
+    
+    Birth followed by none
+    Birth followed by birth
+    Birth followed by entry
+    Birth followed by enumeration
+    Birth followed by   inmigration
+     
+    Death followed by birth
+    Death followed by death
+    Death followed by entry
+    Death followed by enumeration
+    Death followed by exit
+    Death followed by inmigration
+    Death followed by outmigration
+    Death followed by end of observation
+    
+    Entry followed by none
+    Entry followed by birth
+    Entry followed by entry
+    Entry followed by enumeration
+    Entry followed by inmigration
+    
+    Enumeration followed by none
+    Enumeration followed by birth
+    Enumeration followed by entry
+    Enumeration followed by enumeration
+    Enumeration followed by inmigration
+    
+    Exit followed by birth
+    Exit followed by death
+    Exit followed by exit
+    Exit followed by end of observation
+    Exit followed by outmigration
+    
+    Inmigration followed by none
+    Inmigration followed by birth
+    Inmigration followed by entry
+    Inmigration followed by enumeration
+    Inmigration followed by inmigration
+    
+    End of observation followed by birth
+    End of observation followed by death
+    End of observation followed by entry
+    End of observation followed by enumeration
+    End of observation followed by exit
+    End of observation followed by inmigration
+    End of observation followed by end of observation
+    End of observation followed by outmigration
+    
+    Outmigration followed by birth
+    Outmigration followed by death
+    Outmigration followed by exit
+    Outmigration followed by end of observation
+    Outmigration followed by outmigration
+    
+    List of edited events:
+    
+    Exit followed by none
+    Exit followed by enumeration
+    Exit followed by inmigration
+    
+    Outmigration followed by entry]]>
+      </dataChck>
+      <dataMsng>
+        <![CDATA[For different events there are variables related to that event only, for all other events there are missing values for those variabes which are null values.
+for eg. DoB is related to birth only and for all other events this would be given as a null value.]]>
+      </dataMsng>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr>
+    <varGrp ID="VG1" type="subject" var="V14 V15">
+      <labl>
+        Centre Related Variables
+      </labl>
+      <txt>
+        This group has identifiers for country and centre
+      </txt>
+    </varGrp>
+    <varGrp ID="VG2" type="subject" var="V16 V17 V18 V19">
+      <labl>
+        Individual Related Variables
+      </labl>
+    </varGrp>
+    <varGrp ID="VG3" type="subject" var="V13 V20 V21 V22 V23 V24" varGrp="VG4 VG5">
+      <labl>
+        Event Related Variables
+      </labl>
+    </varGrp>
+    <varGrp ID="VG4" type="subject" var="V25 V26">
+      <labl>
+        Birth Related Variables
+      </labl>
+    </varGrp>
+    <varGrp ID="VG5" type="subject" var="V27 V28 V29 V30 V31 V32">
+      <labl>
+        Death Related Variables
+      </labl>
+    </varGrp>
+    <var ID="V13" name="RecNr" files="F3" dcml="0" intrvl="contin">
+      <labl>
+        Record Number
+      </labl>
+      <valrng>
+        <range min="1" max="421246"/>
+      </valrng>
+      <sumStat type="vald">
+        421246
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <sumStat type="min">
+        1
+      </sumStat>
+      <sumStat type="max">
+        421246
+      </sumStat>
+      <sumStat type="mean">
+        210623.5
+      </sumStat>
+      <sumStat type="stdev">
+        121603.39
+      </sumStat>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V14" name="CountryId" files="F3" dcml="0" intrvl="discrete">
+      <labl>
+        Country Identifier
+      </labl>
+      <valrng>
+        <range min="356" max="356"/>
+      </valrng>
+      <sumStat type="vald">
+        421246
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <catgry>
+        <catValu>
+          356
+        </catValu>
+        <catStat type="freq">
+          421246
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V15" name="CentreId" files="F3" intrvl="discrete">
+      <location width="5"/>
+      <labl>
+        Centre Identifier
+      </labl>
+      <sumStat type="vald">
+        421246
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <catgry>
+        <catValu>
+          IN021
+        </catValu>
+        <catStat type="freq">
+          421246
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V16" name="IndividualId" files="F3" intrvl="discrete">
+      <location width="12"/>
+      <labl>
+        Individual identifier
+      </labl>
+      <sumStat type="vald">
+        421246
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V17" name="Sex" files="F3" dcml="0" intrvl="discrete">
+      <labl>
+        Sex
+      </labl>
+      <valrng>
+        <range min="1" max="2"/>
+      </valrng>
+      <universe clusion="I">
+        The enite population
+      </universe>
+      <sumStat type="vald">
+        420562
+      </sumStat>
+      <sumStat type="invd">
+        684
+      </sumStat>
+      <txt>
+        Sex stores the gender of every individual
+      </txt>
+      <catgry>
+        <catValu>
+          1
+        </catValu>
+        <catStat type="freq">
+          243944
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2
+        </catValu>
+        <catStat type="freq">
+          176618
+        </catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          684
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V18" name="DoB" files="F3" intrvl="discrete">
+      <location width="19"/>
+      <labl>
+        Date of Birth
+      </labl>
+      <sumStat type="vald">
+        420562
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V19" name="EventCount" files="F3" dcml="0" intrvl="discrete">
+      <labl>
+        Event Count
+      </labl>
+      <valrng>
+        <range min="1" max="12"/>
+      </valrng>
+      <sumStat type="vald">
+        421246
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <catgry>
+        <catValu>
+          1
+        </catValu>
+        <catStat type="freq">
+          995
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2
+        </catValu>
+        <catStat type="freq">
+          346766
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          3
+        </catValu>
+        <catStat type="freq">
+          4227
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          4
+        </catValu>
+        <catStat type="freq">
+          58376
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          5
+        </catValu>
+        <catStat type="freq">
+          1840
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          6
+        </catValu>
+        <catStat type="freq">
+          7644
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          7
+        </catValu>
+        <catStat type="freq">
+          329
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          8
+        </catValu>
+        <catStat type="freq">
+          960
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          9
+        </catValu>
+        <catStat type="freq">
+          27
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          10
+        </catValu>
+        <catStat type="freq">
+          70
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          12
+        </catValu>
+        <catStat type="freq">
+          12
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V20" name="EventNr" files="F3" dcml="0" intrvl="discrete">
+      <labl>
+        Event Number
+      </labl>
+      <valrng>
+        <range min="1" max="12"/>
+      </valrng>
+      <sumStat type="vald">
+        421246
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <catgry>
+        <catValu>
+          1
+        </catValu>
+        <catStat type="freq">
+          192201
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2
+        </catValu>
+        <catStat type="freq">
+          191206
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          3
+        </catValu>
+        <catStat type="freq">
+          17823
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          4
+        </catValu>
+        <catStat type="freq">
+          16414
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          5
+        </catValu>
+        <catStat type="freq">
+          1820
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          6
+        </catValu>
+        <catStat type="freq">
+          1452
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          7
+        </catValu>
+        <catStat type="freq">
+          178
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          8
+        </catValu>
+        <catStat type="freq">
+          131
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          9
+        </catValu>
+        <catStat type="freq">
+          11
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          10
+        </catValu>
+        <catStat type="freq">
+          8
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          11
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          12
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V21" name="EventCode" files="F3" intrvl="discrete">
+      <location width="3"/>
+      <labl>
+        Event Code
+      </labl>
+      <sumStat type="vald">
+        421246
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <catgry>
+        <catValu>
+          BTH
+        </catValu>
+        <catStat type="freq">
+          11613
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          DTH
+        </catValu>
+        <catStat type="freq">
+          2968
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          ENT
+        </catValu>
+        <catStat type="freq">
+          15690
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          ENU
+        </catValu>
+        <catStat type="freq">
+          74485
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          EXT
+        </catValu>
+        <catStat type="freq">
+          13076
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          IMG
+        </catValu>
+        <catStat type="freq">
+          109226
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          OBE
+        </catValu>
+        <catStat type="freq">
+          127715
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          OMG
+        </catValu>
+        <catStat type="freq">
+          66473
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V22" name="EventDate" files="F3" intrvl="discrete">
+      <location width="19"/>
+      <labl>
+        Event Date
+      </labl>
+      <sumStat type="vald">
+        421246
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V23" name="ObservationDate" files="F3" intrvl="discrete">
+      <location width="19"/>
+      <labl>
+        Observation Date
+      </labl>
+      <sumStat type="vald">
+        421246
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V24" name="LocationId" files="F3" intrvl="discrete">
+      <location width="10"/>
+      <labl>
+        Location Identifier
+      </labl>
+      <sumStat type="vald">
+        421108
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V25" name="MotherId" files="F3" dcml="0" intrvl="discrete">
+      <labl>
+        Mother Identifier
+      </labl>
+      <respUnit>
+        Proxy Informant
+      </respUnit>
+      <universe clusion="I">
+        All the survivals who have gone through birth
+      </universe>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        421246
+      </sumStat>
+      <txt>
+        This is a numeric value which lists IndividualId of the mother
+      </txt>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          421246
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V26" name="DeliveryId" files="F3" dcml="0" intrvl="discrete">
+      <labl>
+        Delivery Identifier
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        421246
+      </sumStat>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          421246
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V27" name="Cause1" files="F3" dcml="0" intrvl="discrete">
+      <labl>
+        Cause1
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        421246
+      </sumStat>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          421246
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V28" name="Cause2" files="F3" dcml="0" intrvl="discrete">
+      <labl>
+        Cause2
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        421246
+      </sumStat>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          421246
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V29" name="Cause3" files="F3" dcml="0" intrvl="discrete">
+      <labl>
+        Cause3
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        421246
+      </sumStat>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          421246
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V30" name="Likelihood1" files="F3" dcml="0" intrvl="discrete">
+      <labl>
+        Likelihood1
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        421246
+      </sumStat>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          421246
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V31" name="Likelihood2" files="F3" dcml="0" intrvl="discrete">
+      <labl>
+        Likelihood2
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        421246
+      </sumStat>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          421246
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V32" name="Likelihood3" files="F3" dcml="0" intrvl="discrete">
+      <labl>
+        Likelihood3
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        421246
+      </sumStat>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          421246
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+  </dataDscr>
+</codeBook>

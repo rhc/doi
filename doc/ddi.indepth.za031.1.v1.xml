@@ -1,0 +1,2438 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codeBook version="1.2.2" ID="INDEPTH.ZA031.1.v1" xml-lang="en" xmlns="http://www.icpsr.umich.edu/DDI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.icpsr.umich.edu/DDI http://www.icpsr.umich.edu/DDI/Version1-2-2.xsd">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>
+          Africa Centre INDEPTH Core Dataset 2000-2010 (Residents only)
+        </titl>
+        <IDNo>
+          DDI.INDEPTH.ZA031.1.v1
+        </IDNo>
+      </titlStmt>
+      <prodStmt>
+        <producer abbr="iS2TT" affiliation="INDEPTH Network" role="Documentation of the study">
+          iSHARE2 Technical Team
+        </producer>
+        <producer abbr="int.indepth" affiliation="INDEPTH Network" role="agency">
+          INDEPTH Network
+        </producer>
+        <producer abbr="AJH" affiliation="ZA031" role="DDI author">
+          AJ Herbst
+        </producer>
+        <producer abbr="CK" affiliation="ZA031" role="DDI author">
+          C Kyony
+        </producer>
+        <prodDate date="2012-11-05">
+          2012-11-05
+        </prodDate>
+        <software version="4.0.8" date="2012-05-14">
+          Nesstar Publisher
+        </software>
+      </prodStmt>
+      <verStmt>
+        <version>
+          Version 1 (November 2012)
+        </version>
+        <notes>
+          Version 1 : Initial version
+        </notes>
+      </verStmt>
+      <holdings URI="http://www.indepth-ishare.org"/>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>
+         Africa Centre INDEPTH Core Dataset 2000-2010 (Residents only)
+        </titl>
+        <IDNo>
+          INDEPTH.ZA031.1.v1
+        </IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="Africa Centre (ZA031)">
+          Marie-Louise Newell
+        </AuthEnty>
+        <AuthEnty affiliation="Africa Centre (ZA031)">
+          Kobus Herbst
+        </AuthEnty>
+        <othId role="data manager" affiliation="Africa Centre (ZA031)">
+          <p>
+            Colin Newell
+          </p>
+        </othId>
+        <othId role="data manager" affiliation="Africa Centre (ZA031)">
+          <p>
+            Christian Kyony
+          </p>
+        </othId>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="TM" affiliation="Africa Centre (ZA031)" role="data collection">
+          Tinofa Mutevedzi
+        </producer>
+        <software version="4.0.8" date="2012-05-14">
+          Nesstar Publisher
+        </software>
+        <fundAg abbr="WT" role="current funder">
+          Wellcome Trust
+        </fundAg>
+        <fundAg abbr="WT" role="prior funder">
+          Wellcome Trust
+        </fundAg>
+        <grantNo agency="WT" role="current funder">
+          097410/Z/11/Z
+        </grantNo>
+        <grantNo agency="WT" role="prior funder">
+          50535
+        </grantNo>
+      </prodStmt>
+      <distStmt>
+        <contact affiliation="INDEPTH" URI="http://www.indepth-ishare.org/iSHARE2/index.php/howtouse" email="help-data@indepth-network.org">
+          iSHARE2 Helpdesk
+        </contact>
+      </distStmt>
+      <serStmt>
+        <serName>
+          Demographic Surveillance
+        </serName>
+        <serInfo>
+          This dataset contains rounds 1 to 23 of demographic surveillance data covering the period from 1 Jan 2000 to 31 December 2010. Two rounds of data collection took place annually except in 2002 when three surveillance rounds were conducted. It is important to note that this does imply that the dataset contains 23 individual cross sectional components, rather that the information (events) associated with each individual could have been updated at each of these 23 surveillance rounds if the individual was under surveillance during any particular round.
+        </serInfo>
+      </serStmt>
+      <verStmt>
+        <version date="2012-07-04">
+          v1: Original version extracted on 4 July 2012
+        </version>
+        <notes>
+          v1 : Original version
+        </notes>
+      </verStmt>
+    </citation>
+    <stdyInfo>
+      <subject>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Demography [N01.224]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Age Distribution [N01.224.033]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Emigration and Immigration [N01.224.625.350]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Residential Mobility [N01.224.791.700]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Sex Distribution [N01.224.803]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Vital Statistics [N01.224.935]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Life Expectancy [N01.224.935.464]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Mortality [N01.224.935.698]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Cause of Death [N01.224.935.698.100]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Birth Rate [N01.224.935.849.500]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Rural Population [N01.600.725]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Maternal Age [N06.850.490.250.550]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Parity [N06.850.490.812.600]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Survival Analysis [N06.850.520.830.998]
+        </topcClas>
+      </subject>
+      <abstract>
+        <![CDATA[The health and demography of the South African population has been undergoing substantial changes as a result of the rapidly progressing HIV epidemic. Researchers at the University of KwaZulu-Natal and the South African Medical Research Council established The Africa Centre for Health and Population Studies in 1997 funded by a core grant from The Wellcome Trust, UK. Given the urgent need for high quality longitudinal data with which to monitor these changes, and with which to evaluate interventions to mitigate impact, a demographic surveillance system (DSS) was established in a rural South African population facing a rapid and severe HIV epidemic. The DSS, referred to as the Africa Centre Demographic Information System (ACDIS), started in 2000.
+
+ACDIS was established to ‘describe the demographic, social and health impact of the HIV epidemic in a population going through the health transition’ and to monitor the impact of intervention strategies on the epidemic. South Africa’s political and economic history has resulted in highly mobile urban and rural populations, coupled with complex, fluid households. In order to successfully monitor the epidemic, it was necessary to collect longitudinal demographic data (e.g. mortality, fertility, migration) on the population and to mirror this complex social reality within the design of the demographic information system. To this end, three primary subjects are observed longitudinally in ACDIS: physical structures (e.g. homesteads, clinics and schools), households and individuals. The information about these subjects, and all related information, is stored in a single MSSQL Server database, in a truly longitudinal way—i.e. not as a series of cross-sections.
+
+The surveillance area is located near the market town of Mtubatuba in the Umkanyakude district of KwaZulu-Natal. The area is 438 square kilometers in size and includes a population of approximately 85 000 people who are members of approximately 11 000 households. The population is almost exclusively Zulu-speaking. The area is typical of many rural areas of South Africa in that while predominantly rural, it contains an urban township and informal peri-urban settlements. The area is characterized by large variations in population densities (20–3000 people/km2). In the rural areas, homesteads are scattered rather than grouped. Most households are multi-generational and range with an average size of 7.9 (SD:4.7) members. Despite being a predominantly rural area, the principle source of income for most households is waged employment and state pensions rather than agriculture. In 2006, approximately 77% of households in the surveillance area had access to piped water and toilet facilities.
+
+To fulfil the eligibility criteria for the ACDIS cohort, individuals must be a member of a household within the surveillance area but not necessarily resident within it. Crucially, this means that ACDIS collects information on resident and non-resident members of households and makes a distinction between membership (self-defined on the basis of links to other household members) and residency (residing at a physical structure within the surveillance area at a particular point in time). Individuals can be members of more than one household at any point in time (e.g. polygamously married men whose wives maintain separate households). As of June 2006, there were 85 855 people under surveillance of whom 33% were not resident within the surveillance area. Obtaining information on non-resident members is vital for a number of reasons. Most importantly, understanding patterns of HIV transmission within rural areas requires knowledge about patterns of circulation and about sexual contacts between residents and their non-resident partners. To be consistent with similar datasets from other INDEPTH Member centres, this data set contains data from resident members only.
+
+During data collection, households are visited by fieldworkers and information supplied by a single key informant. All births, deaths and migrations of household members are recorded. If household members have moved internally within the surveillance area, such moves are reconciled and the internal migrant retains the original identfier associated with him/her.]]>
+      </abstract>
+      <sumDscr>
+        <timePrd date="2000-01-01" event="start" cycle="Release coverage"/>
+        <timePrd date="2010-12-31" event="end" cycle="Release coverage"/>
+        <collDate date="2000-01-01" event="start" cycle="Round 1"/>
+        <collDate date="2000-08-01" event="end" cycle="Round 1"/>
+        <collDate date="2000-08-01" event="start" cycle="Round 2"/>
+        <collDate date="2001-02-01" event="end" cycle="Round 2"/>
+        <collDate date="2001-02-01" event="start" cycle="Round 3 "/>
+        <collDate date="2001-06-25" event="end" cycle="Round 3 "/>
+        <collDate date="2001-06-25" event="start" cycle="Round 4"/>
+        <collDate date="2002-01-07" event="end" cycle="Round 4"/>
+        <collDate date="2002-01-07" event="start" cycle="Round 5"/>
+        <collDate date="2002-05-06" event="end" cycle="Round 5"/>
+        <collDate date="2002-05-06" event="start" cycle="Round 6"/>
+        <collDate date="2002-09-02" event="end" cycle="Round 6"/>
+        <collDate date="2002-09-02" event="start" cycle="Round 7"/>
+        <collDate date="2003-01-08" event="end" cycle="Round 7"/>
+        <collDate date="2003-01-08" event="start" cycle="Round 8"/>
+        <collDate date="2003-06-18" event="end" cycle="Round 8"/>
+        <collDate date="2003-06-18" event="start" cycle="Round 9"/>
+        <collDate date="2003-11-27" event="end" cycle="Round 9"/>
+        <collDate date="2003-11-27" event="start" cycle="Round 10"/>
+        <collDate date="2004-06-07" event="end" cycle="Round 10"/>
+        <collDate date="2004-06-07" event="start" cycle="Round 11"/>
+        <collDate date="2005-01-01" event="end" cycle="Round 11"/>
+        <collDate date="2005-01-01" event="start" cycle="Round 12"/>
+        <collDate date="2005-07-04" event="end" cycle="Round 12"/>
+        <collDate date="2005-07-04" event="start" cycle="Round 13"/>
+        <collDate date="2006-01-10" event="end" cycle="Round 13"/>
+        <collDate date="2006-01-10" event="start" cycle="Round 14"/>
+        <collDate date="2006-07-17" event="end" cycle="Round 14"/>
+        <collDate date="2006-07-17" event="start" cycle="Round 15"/>
+        <collDate date="2007-01-10" event="end" cycle="Round 15"/>
+        <collDate date="2007-01-10" event="start" cycle="Round 16"/>
+        <collDate date="2007-07-11" event="end" cycle="Round 16"/>
+        <collDate date="2007-07-11" event="start" cycle="Round 17"/>
+        <collDate date="2008-01-13" event="end" cycle="Round 17"/>
+        <collDate date="2008-01-13" event="start" cycle="Round 18"/>
+        <collDate date="2008-07-01" event="end" cycle="Round 18"/>
+        <collDate date="2008-07-01" event="start" cycle="Round 19"/>
+        <collDate date="2009-01-11" event="end" cycle="Round 19"/>
+        <collDate date="2009-01-11" event="start" cycle="Round 20"/>
+        <collDate date="2009-07-13" event="end" cycle="Round 20"/>
+        <collDate date="2009-07-13" event="start" cycle="Round 21"/>
+        <collDate date="2009-12-11" event="end" cycle="Round 21"/>
+        <collDate date="2009-12-11" event="start" cycle="Round 22"/>
+        <collDate date="2010-06-11" event="end" cycle="Round 22"/>
+        <collDate date="2010-06-11" event="start" cycle="Round 23"/>
+        <collDate date="2010-12-21" event="end" cycle="Round 23"/>
+        <collDate date="2010-12-21" event="start" cycle="Round 24"/>
+        <collDate date="2011-06-20" event="end" cycle="Round 24"/>
+        <collDate date="2011-06-20" event="start" cycle="Round 25"/>
+        <collDate date="2012-01-10" event="end" cycle="Round 25"/>
+        <collDate date="2012-01-10" event="start" cycle="Round 26"/>
+        <collDate date="2012-05-21" event="end" cycle="Round 26"/>
+        <nation abbr="ZA">
+          South Africa
+        </nation>
+        <geogCover>
+          <![CDATA[Demographic surveillance area situated in the south-east portion of the uMkhanyakude district of KwaZulu-Natal province near the town of Mtubatuba. It is bounded on the west by the Umfolozi-Hluhluwe nature reserve, on the South by the Umfolozi river, on the East by the N2 highway (except form portions where the Kwamsane township strandles the highway) and in the North by the Inyalazi river for portions of the boundary.
+
+The area is 438 square kilometers.]]>
+        </geogCover>
+        <anlyUnit>
+          Individual
+        </anlyUnit>
+        <universe>
+          Resident household members of households resident within the demographic surveillance area. Inmigrants are defined by intention to become resident, but actual residence episodes of less than 180 days are censored. Outmigrants are defined by intention to become resident elsewhere, but actual periods of non-residence less than 180 days are censored. Children born to resident women are considered resident by default, irrespective of actual place of birth. The dataset contains the events of all individuals ever resident during the study period (1 Jan 2000 to 31 Dec 2010)
+        </universe>
+        <dataKind>
+          Event history data
+        </dataKind>
+      </sumDscr>
+      <notes>
+        <![CDATA[This study represents only a portion of the total data associated with the complete Africa Centre demographic surveilance as described in the study abstract.
+
+It specifically only includes the events defining the resident exposure of individuals under surveillance as well as the delivery events of resident women. Each type of event contains minimal attributes describing the event:
+
+Attributes common to each event:
+Event Type,
+Event Date
+Observation date
+
+Migration:
+Origin & Destination
+
+Death:
+Cause
+
+Delivery:
+Live born and Still born counts
+Parity]]>
+      </notes>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <dataCollector abbr="ZA031" affiliation="UKZN">
+          The Africa Centre for Health and Population Studies
+        </dataCollector>
+        <frequenc>
+          This dataset contains rounds 1 to 23 of demographic surveillance data covering the period from 1 Jan 2000 to 31 December 2010. Two rounds of data collection took place annually except in 2002 when three surveillance rounds were conducted.
+        </frequenc>
+        <sampProc>
+          <![CDATA[This dataset is not based on a sample but contains information from the complete demographic surveillance area.
+
+Reponse units (households) by year:
+Year         Households
+2000	11856	
+2001	12321	
+2002	12981	
+2003	12165	
+2004	11841	
+2005	11312	
+2006	12065	
+2007	12165	
+2008	11790	
+2009	12145	
+2010	12485	
+2011	12455	
+2012	12087	
+
+In 2006 the number of response units increased due to the addition of a new village into the demographic surveillance area.]]>
+        </sampProc>
+        <deviat>
+          None
+        </deviat>
+        <collMode>
+          Face-to-face [f2f]
+        </collMode>
+        <resInstru>
+          <![CDATA[List of questionnaires 
+
+Bounded structure registration (BSR) or update (BSU) form
+• used to register characteristics of the BS
+• Updates characteristics of the BS
+• Information as at previous round is preprinted
+
+Household registration (HHR) or update (HHU) form
+• used to register characteristics of the HH
+• Used to update information about the composition of the household
+• Information preprinted of composition and all registered households as at previous.
+
+Household Membership Registration (HMR) or update (HMU)
+• used to link individuals to households. 
+• Used to update information about the household memberships and member status observations
+• Information preprinted of member status observations  as at previous.
+
+Individual registration form (IDR)
+• Used to uniquely identify each individual
+• Mainly to ensure members with multiple household memberships are appropriately
+captured
+
+Migration notification form (MGN)
+• Used to record change in the BS of residency of individuals or households
+• Migrants are tracked and updated in the database
+
+
+Pregnancy history form (PGH) & pregnancy outcome notification form (PON)
+• Records details of pregnancies and their outcomes
+• Only if woman is a new member
+• Only if woman has never completed WHL or WGH
+
+Death notification form (DTN)
+• Records all deaths that have recently occurred
+• includes information about time, place, circumstances and possible cause of death]]>
+        </resInstru>
+        <sources/>
+        <collSitu>
+          Enumerators were trained immediately prior to the baseline data collection and then refresher training was conducted for one week between each surveillance round. New fieldworkers received a standardised 6 week training course prior to appointment as data collectors. Data entry staff received fieldwork training in addition to training in the use of the data entry programs.
+        </collSitu>
+        <weight>
+          Not applicable
+        </weight>
+        <cleanOps>
+          <![CDATA[On data entry data consistency and plausibility were checked by 455 data validation rules at database level. If data validaton failure was due to a data collection error, the questionnaire was referred back to the field for revisit and correction. If the error was due to data inconsistencies that could not be directly traced to a data collection error, the record was referred to the data quality team under the supervision of the senior database scientist. This could request further field level investigation by a team of trackers or could correct the inconsistency directly at database level.
+
+No imputations were done on the resulting micro data set, except for:
+
+a. If an out-migration (OMG) event is followed by a homestead entry event (ENT) and the gap between OMG event and ENT event is greater than 180 days, the ENT event was changed to an in-migration event (IMG).
+b.  If an out-migration (OMG) event is followed by a homestead entry event (ENT) and the gap between OMG event and ENT event is less than 180 days, the OMG event was changed to an homestead exit event (EXT) and the ENT event date changed to the day following the original OMG event.
+c. If a homestead exit event (EXT) is followed by an in-migration event (IMG) and the gap between the EXT event and the IMG event is greater than 180 days, the EXT event was changed to an out-migration event (OMG).
+d. If a homestead exit event (EXT) is followed by an in-migration event (IMG) and the gap between the EXT event and the IMG event is less than 180 days, the IMG event was changed to an homestead entry event (ENT) with a date equal to the day following the EXT event.
+e. If the last recorded event for an individual is homestead exit (EXT) and this event is more than 180 days prior to the end of the surveillance period, then the EXT event is changed to an out-migration event (OMG)
+
+In the case of the village that was added (enumerated) in 2006, some individuals may have outmigrated from the original surveillance area and setlled in the the new village prior to the first enumeration. Where the records of such individuals have been linked, and indivdiual can legitmately have and outmigration event (OMG) forllowed by and enumeration event (ENU). In a few cases a homestead exit event (EXT) was followed by an enumeration event in these cases. In these instances the EXT events were changed to an out-migration event (OMG).]]>
+        </cleanOps>
+      </dataColl>
+      <notes>
+        <![CDATA[All homesteads in the Hlabisa sub-district were geocoded and entered into a geographic information system (GIS) prior to the start of surveillance. The demographic surveillance area was selected on the basis of this information to include an area with clear geographic boundaries and an estimated population size suitable for the envisaged research agenda. Since then the GIS database has been updated based on notification of new homesteads from the fieldwork and periodic reviews of satellite and aerial photography.
+
+Mapping teams used differentially coorrected global positioning system (GPS) units (accuracy <2m) to geocode homesteads. 
+
+How document control was conducted to ensure all census forms were completed?
+
+Before each round, a SQL script generated a list of questionnaires to be printed for each household resident in the surveillance area. Each questionnaire is given a unique integer key which is printed as a barcode on the questionnaire.  A series of web-based reports called 'Unified Reports' are then used to track and control the status of each questionnaire from document production, data collection, data entry and document archiving. A strict chain of custody is enforced for all questionnaire movements.
+
+A data entry is performed by a team of 6 data capturers with one supervisor using in-house developed software (Delphi and .NET C#). Double-entry is not routinely used except in the case of verbal autopsy questionnaires. 
+
+Data is stored in a MS SQL database, with transaction logging, daily backups and twice weekly off-site backups. Constraints and validation rules placed on the database help in checking data quality during data entry. 
+
+All data entry done by each data capturer in the first five days of each round is 100% rechecked by the supervisor. If during those 5 days the data capturer's work is consistently error-free, only 20% of their work will be subjected to rechecking by a supervisor. If any error is picked up in the 20% rechecking, then their work gets subjected to 100% recheck for another 5 consecutive days. 
+
+Field QC Procedures
+
+- Supervised visits - this exercise is carried by the fieldworker and the supervisor jointly. The two select a sample of bounded structures which they will visit together. During a Supervised visit, the supervisor listens and observes as the fieldworker conducts the interviews without interrupting. The supervisor uses a checklist to write observations and comments for feedback and further training of a particular fieldworker immediately after departure from a BS,. The supervised visit checklist is submitted to the QC section and is used for performance analysis, as well as for identification of training needs.
+
+- Quality Control visits - these are repeat data collection visits conducted by a fieldwork supervisor soon after the fieldworker completes routine data collection at a homestead. This is done mainly to ensure accuracy and reliability of the information collected by fieldworkers. Quality control visits are selected randomly by the computer at a 5% sample of the total number of homesteads to be visited per each round. The original copy and the supervisor's copy are then compared by the quality controllers to identify discrepancies between the two. If discrepancies are found, the two copies are rejected back to the field for reconciliation between the two. The records are also kept at the quality control section for analyses towards the end of the round and this also contributes to performance management of individual employees QC at the office before data entry.
+
+After data collection and before data entry, the office-based QC section checks questionnaires for completeness, consistency and accuracy. If a questionnaire failed to meet the quality standard requirements, the QC clerk send back the questionnaires to the field worker's supervisor.
+
+Specify how the data was extracted (including which software program was used) to produce the core micro data set. How was inconsistent records dealt with during this process?
+
+Following data collection and data entry completion at the end of a surveillance round, a snapshot of the operational database is created as an analytical database. each such snapshot is uniquely identified and analytical datasets must reference the analytical database thay originated from. Analytical datasets are never produced directly from the operational database, as this database is continually in flux as data is updated through the data collection and entry processes.
+
+An sql script produces a normalised episode table each time an analytical database is created. This episode table contains an exposure record for each exposure episode for an individual, from initial enumeration, birth or in-migration, up to eventual death or out-migration. The episode table contains the start event and date of the exposure as well as the end event and date of the end of exposure. Individuals that out-migrate and later in-migrate are reconciled as far as possible using individual identifiers (national identity number, names, sex and date of birth) under a single individual identity. All internal movements (migrations) are reconciled and residencies at different homesteads within the surveillance area are reflected as separate episodes in the episode table.
+
+In the case of deaths, the next of kin are visited by a verbal autopsy nurse and a derivation of the INDEPTh standard verbal autopsy questionnaire is used to document the death. The verbal autopsy questionnaires are interpreted by the INTERVA-4 program to derive cause of death information.
+
+To produce this micro-data set, the episode table is processed using Pentaho Kettle ETL program to produce this standard event-history format dataset.]]>
+      </notes>
+      <anlyInfo>
+        <respRate>
+          <![CDATA[Household response rates are as follows (assuming that if a household has not responded for 2 years following the last recorded visit to that household, that the household is lost to follow-up and no longer part of the response rate denominator)
+
+Year	Response Rate	
+2000	94%	
+2001	93%	
+2002	96%	
+2003	91%	
+2004	88%	
+2005	84%	
+2006	88%	
+2007	89%	
+2008	87%	
+2009	88%	
+2010	89%	
+2011	89%	
+2012	89%]]>
+        </respRate>
+        <EstSmpErr>
+          Not applicable
+        </EstSmpErr>
+        <dataAppr>
+          <![CDATA[Two data quality metrics were calculated:
+
+
+The raw  Data quality A is 97.929% before any corrections or fixes.
+The adjusted Data quality B is 99.999% after fixes.]]>
+        </dataAppr>
+      </anlyInfo>
+    </method>
+    <dataAccs>
+      <setAvail>
+        <origArch>
+          Africa Centre (ZA031)
+        </origArch>
+      </setAvail>
+      <useStmt>
+        <confDec required="yes">
+          This data is anonymised and no confidentiality agreement in addition to the general data use agreement is required
+        </confDec>
+        <contact affiliation="INDEPTH" email="help-data@indepth-network.org">
+          iSHARE2 Help desk
+        </contact>
+        <citReq>
+          <![CDATA[Any use of this dataset must cite the digital object identifier (doi) associated with this dataset. Using the following form:
+
+"Africa Centre INDEPTH Core Dataset 2000-2010 (Residents only). Jul 2012. Provided by the INDEPTH Network Data Repository. www.indepth-network.org <http://www.indepth-network.org>. doi:10.7796/ INDEPTH.ZA031.1.v1"]]>
+        </citReq>
+        <conditions>
+          <![CDATA[This data is made available for licensed access under the following conditions: 
+
+1. Data and other material provided by INDEPTH will not be redistributed or sold to other individuals, institutions or organisations without INDEPTH's written agreement. 
+
+2. In the case of multi-centre datasets, data originating from a single contributing member centre of the INDEPTH Network may not be analysed or reported on in isolation without the express permission of the member centre concerned.  
+
+3. No attempt will be made to re-identify respondents, and there will be no use of the identity of any person or establishment discovered inadvertently. Any such discovery will be reported immediately to INDEPTH. 
+
+4. No attempt will be made to produce links between datasets provided by INDEPTH or between INDEPTH data and other datasets that could identify individuals. 
+
+5. Any books, articles, conference papers, theses, dissertations, reports or other publications employing data obtained from INDEPTH will cite the source, in line with the citation requirement provided with the dataset. 
+
+6. An electronic copy of all publications based on the requested data will be sent to INDEPTH. 
+
+7. The original collector of the data, INDEPTH, and the relevant funding agencies bear no responsibility for the data's use or interpretation or inferences based upon it.]]>
+        </conditions>
+        <disclaimer>
+          The user of the data acknowledges that the original collector of the data, INDEPTH, and the relevant funding agencies bear no responsibility for the data's use or interpretation or inferences based upon it.
+        </disclaimer>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat>
+      <relMat>
+        Detail documentation of data collected at the Africa Centre including copies of questionnaires used.
+        <citation>
+          <titlStmt>
+            <titl>
+              Africa Centre Datasets - General Information
+            </titl>
+          </titlStmt>
+          <holdings URI="http://www.africacentre.ac.za/Default.aspx?tabid=69"/>
+        </citation>
+      </relMat>
+      <relMat>
+        This is your manual and your everyday guide to all the different tasks that you will be expected to do as a fieldworker in the Africa Centre Demographic Information System (ACDIS) project. You will work through this manual during your fieldworker training programme, and you will get to know and understand everything that is in it. Thereafter, you can carry it with you in the field so that you can refer to it when you need to check on anything about your job as a fieldworker.
+        <citation>
+          <titlStmt>
+            <titl>
+              ACDIS Fieldwork Training Manual
+            </titl>
+          </titlStmt>
+          <holdings URI="http://www.africacentre.ac.za/Portals/0/ACDIS%20Fieldwork%20Manual%202008.pdf"/>
+        </citation>
+      </relMat>
+      <relPubl>
+        <citation>
+          <titlStmt>
+            <titl>
+              Cohort profile: Africa Centre Demographic Information System (ACDIS) and population-based HIV survey
+            </titl>
+          </titlStmt>
+          <holdings URI="doi: 10.1093/ije/dym211"/>
+        </citation>
+      </relPubl>
+    </othrStdyMat>
+  </stdyDscr>
+  <fileDscr ID="F3" URI="AfricaCentre.Nesstar?Index=0&amp;Name=ZA031.1.v1">
+    <fileTxt>
+      <fileName>
+        ZA031.1.NSDstat
+      </fileName>
+      <fileCont>
+        This dataset contains rounds 1 to 23 of demographic surveillance data covering the period from 1 Jan 2000 to 31 December 2010. Two rounds of data collection took place annually except in 2002 when three surveillance rounds were conducted. It is important to note that this does imply that the dataset contains 23 individual cross sectional components, rather that the information (events) associated with each individual could have been updated at each of these 23 surveillance rounds if the individual was under surveillance during any particular round.
+      </fileCont>
+      <fileStrc type="relational">
+        <recGrp recGrp="F5" keyvar="V31"/>
+      </fileStrc>
+      <dimensns>
+        <caseQnty>
+          421116
+        </caseQnty>
+        <varQnty>
+          20
+        </varQnty>
+      </dimensns>
+      <fileType>
+        Nesstar 200801
+      </fileType>
+      <filePlac>
+        Africa Centre (ZA031)
+      </filePlac>
+      <dataChck>
+        Refer to the "Data Editing" field under the Study description section
+      </dataChck>
+      <dataMsng>
+        Null is used to code missing values.
+      </dataMsng>
+      <verStmt>
+        <version>
+          v1
+        </version>
+      </verStmt>
+    </fileTxt>
+    <notes>
+      The MD5 hash of the data file is 107bfac6ba35195520c6f9670c0fe6e6.
+    </notes>
+  </fileDscr>
+  <fileDscr ID="F5" URI="AfricaCentre.Nesstar?Index=1&amp;Name=INDEPTH EventTypes">
+    <fileTxt>
+      <fileName>
+        INDEPTH EventTypes.NSDstat
+      </fileName>
+      <fileCont>
+        The file contains the event types for the INDEPTH data specification.
+        <ExtLink URI="doi:10.1093/ije/dys081" title="The INDEPTH Network: filling vital gaps in global epidemiology"/>
+      </fileCont>
+      <fileStrc type="relational">
+        <recGrp recGrp="F3" keyvar="V53"/>
+      </fileStrc>
+      <dimensns>
+        <caseQnty>
+          11
+        </caseQnty>
+        <varQnty>
+          3
+        </varQnty>
+      </dimensns>
+      <fileType>
+        Nesstar 200801
+      </fileType>
+      <filePlac>
+        Africa Centre (ZA031)
+      </filePlac>
+      <dataChck>
+        Not applicable.
+      </dataChck>
+      <dataMsng>
+        Not applicable
+      </dataMsng>
+      <verStmt>
+        <version>
+          v1
+        </version>
+      </verStmt>
+    </fileTxt>
+    <notes>
+      The datafile fingerprint (MD5 hash) is 0481c256926c2b7f7fe225d1d44882f1
+    </notes>
+  </fileDscr>
+  <dataDscr>
+    <varGrp ID="VG2" type="record">
+      <labl>
+        Record identifiers
+      </labl>
+      <txt>
+        Uniquely identifies the record and event sequence and count per individual
+      </txt>
+    </varGrp>
+    <varGrp ID="VG1" type="display">
+      <labl>
+        Origin
+      </labl>
+      <txt>
+        Identify the country and surveillance site of origin
+      </txt>
+    </varGrp>
+    <varGrp ID="VG3" type="subject">
+      <labl>
+        Individual
+      </labl>
+      <txt>
+        Information at individual level
+      </txt>
+    </varGrp>
+    <varGrp ID="VG4" type="analysis">
+      <labl>
+        Event
+      </labl>
+      <txt>
+        Information specific to the event
+      </txt>
+    </varGrp>
+    <var ID="V26" name="RecNr" files="F3" dcml="0" intrvl="contin">
+      <labl>
+        Record number
+      </labl>
+      <valrng>
+        <range min="1" max="421116"/>
+      </valrng>
+      <sumStat type="vald">
+        421116
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <sumStat type="min">
+        1
+      </sumStat>
+      <sumStat type="max">
+        421116
+      </sumStat>
+      <sumStat type="mean">
+        210558.5
+      </sumStat>
+      <sumStat type="stdev">
+        121565.862
+      </sumStat>
+      <txt>
+        A sequential number uniquely identifying each record in the data file
+      </txt>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V27" name="CentreId" files="F3" intrvl="discrete">
+      <location width="5"/>
+      <labl>
+        Centre identifier
+      </labl>
+      <sumStat type="vald">
+        421116
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <txt>
+        An identifier issued by INDEPTH to each member centre of the format CCCSS, where CCC is a sequential centre identifier and SS is a sequential identifier of the site within the centre in the case of multiple site centres
+      </txt>
+      <catgry>
+        <catValu>
+          ZA031
+        </catValu>
+        <catStat type="freq">
+          421116
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V28" name="IndividualId" files="F3" dcml="0" intrvl="contin">
+      <labl>
+        Individual identifier
+      </labl>
+      <valrng>
+        <range min="11" max="164452"/>
+      </valrng>
+      <sumStat type="vald">
+        421116
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <sumStat type="min">
+        11
+      </sumStat>
+      <sumStat type="max">
+        164452
+      </sumStat>
+      <sumStat type="mean">
+        79452.32
+      </sumStat>
+      <sumStat type="stdev">
+        45887.896
+      </sumStat>
+      <txt>
+        A number uniquely identifying all the records belonging to a specific individual in the data file. For data anonymization purposes, this number should not be the same as the identifier used by a contributing centre to identify the individual, but the contributing centre should retain a mapping from this identifier to their identifier
+      </txt>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V29" name="CountryId" files="F3" dcml="0" intrvl="discrete">
+      <labl>
+        Country identifier
+      </labl>
+      <valrng>
+        <range min="710" max="710"/>
+      </valrng>
+      <sumStat type="vald">
+        421116
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <txt>
+        ISO 3166-1 numeric code of the country in which the surveillance site is situated
+      </txt>
+      <catgry>
+        <catValu>
+          710
+        </catValu>
+        <catStat type="freq">
+          421116
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V30" name="LocationId" files="F3" dcml="0" intrvl="contin">
+      <labl>
+        Location identifier
+      </labl>
+      <valrng>
+        <range min="11" max="17407"/>
+      </valrng>
+      <sumStat type="vald">
+        396818
+      </sumStat>
+      <sumStat type="invd">
+        24298
+      </sumStat>
+      <sumStat type="min">
+        11
+      </sumStat>
+      <sumStat type="max">
+        17407
+      </sumStat>
+      <sumStat type="mean">
+        7122.442
+      </sumStat>
+      <sumStat type="stdev">
+        4449.069
+      </sumStat>
+      <txt>
+        Unique identifier associated with a residential unit within the site and is the location where the individual was or became resident when the event occurred. For data anonymization purposes, this identifier should not be the same as the identifier used internally by the contributing centre, but the contributing centre should retain a mapping of this identifier to their internal location identifier
+      </txt>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V31" name="EventCode" files="F3" intrvl="discrete">
+      <location width="3"/>
+      <labl>
+        Event
+      </labl>
+      <sumStat type="vald">
+        421116
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <txt>
+        <![CDATA[A code identifying the type of event that has occurred.
+
+Refer to the linked EventTypes datasets for a short description of the possible 11 event types ( BTH, ENU, IMG, OMG, EXT, ENT, DTH, DLV, OBE, OBL, OBS).]]>
+      </txt>
+      <catgry>
+        <catValu>
+          BTH
+        </catValu>
+        <catStat type="freq">
+          20389
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          DTH
+        </catValu>
+        <catStat type="freq">
+          11481
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          ENT
+        </catValu>
+        <catStat type="freq">
+          56503
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          ENU
+        </catValu>
+        <catStat type="freq">
+          64775
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          EXT
+        </catValu>
+        <catStat type="freq">
+          53151
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          IMG
+        </catValu>
+        <catStat type="freq">
+          68891
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          OBE
+        </catValu>
+        <catStat type="freq">
+          74590
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          OMG
+        </catValu>
+        <catStat type="freq">
+          71336
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V32" name="EventDate" files="F3" intrvl="discrete">
+      <location width="23"/>
+      <labl>
+        Event date
+      </labl>
+      <sumStat type="vald">
+        421116
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <txt>
+        The date on which the event occurred
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V33" name="ObservationDate" files="F3" intrvl="discrete">
+      <location width="23"/>
+      <labl>
+        Observation date
+      </labl>
+      <sumStat type="vald">
+        417220
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <txt>
+        Date on which the event was observed (recorded), also known as surveillance visit date
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V34" name="EventNr" files="F3" dcml="0" intrvl="contin">
+      <labl>
+        Event number
+      </labl>
+      <valrng>
+        <range min="1" max="22"/>
+      </valrng>
+      <sumStat type="vald">
+        421116
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <sumStat type="min">
+        1
+      </sumStat>
+      <sumStat type="max">
+        22
+      </sumStat>
+      <sumStat type="mean">
+        2.605
+      </sumStat>
+      <sumStat type="stdev">
+        1.874
+      </sumStat>
+      <txt>
+        A number increasing from 1 to EventCount for each event record in order of event occurrence
+      </txt>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V35" name="Sex" files="F3" dcml="0" intrvl="discrete">
+      <labl>
+        Sex
+      </labl>
+      <valrng>
+        <range min="0" max="2"/>
+      </valrng>
+      <sumStat type="vald">
+        421116
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <catgry>
+        <catValu>
+          0
+        </catValu>
+        <catStat type="freq">
+          6
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          1
+        </catValu>
+        <catStat type="freq">
+          193068
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2
+        </catValu>
+        <catStat type="freq">
+          228042
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V36" name="DoB" files="F3" intrvl="discrete">
+      <location width="23"/>
+      <labl>
+        Date of birth
+      </labl>
+      <sumStat type="vald">
+        421116
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <txt>
+        The date of birth of the individual
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V37" name="MotherId" files="F3" dcml="0" intrvl="contin">
+      <labl>
+        Mother identifier
+      </labl>
+      <valrng>
+        <range min="14" max="164096"/>
+      </valrng>
+      <sumStat type="vald">
+        20198
+      </sumStat>
+      <sumStat type="invd">
+        400918
+      </sumStat>
+      <sumStat type="min">
+        14
+      </sumStat>
+      <sumStat type="max">
+        164096
+      </sumStat>
+      <sumStat type="mean">
+        62289.494
+      </sumStat>
+      <sumStat type="stdev">
+        39705.904
+      </sumStat>
+      <txt>
+        The Individual identifier (IndividualId) of the mother
+      </txt>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V38" name="DeliveryEventId" files="F3" dcml="0" intrvl="contin">
+      <labl>
+        Delivery event identifier
+      </labl>
+      <valrng>
+        <range min="15" max="87801"/>
+      </valrng>
+      <sumStat type="vald">
+        19349
+      </sumStat>
+      <sumStat type="invd">
+        401767
+      </sumStat>
+      <sumStat type="min">
+        15
+      </sumStat>
+      <sumStat type="max">
+        87801
+      </sumStat>
+      <sumStat type="mean">
+        53985.529
+      </sumStat>
+      <sumStat type="stdev">
+        27138.129
+      </sumStat>
+      <txt>
+        The record number (RecNr) of the delivery event associated with a birth event.
+      </txt>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V39" name="Cause1" files="F3" intrvl="discrete">
+      <location width="40"/>
+      <labl>
+        Cause1
+      </labl>
+      <sumStat type="vald">
+        11481
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <txt>
+        One of the 3 possibles causes of death coded using the WHO list of verbal autopsy death causes.
+      </txt>
+      <catgry>
+        <catValu>
+          01.01 Sepsis (non-obstetric)
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          01.02 Acute resp infect incl pneumonia
+        </catValu>
+        <catStat type="freq">
+          776
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          01.03 HIV/AIDS related death
+        </catValu>
+        <catStat type="freq">
+          1938
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          01.04 Diarrhoeal diseases
+        </catValu>
+        <catStat type="freq">
+          83
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          01.05 Malaria
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          01.06 Measles
+        </catValu>
+        <catStat type="freq">
+          33
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          01.07 Meningitis and encephalitis
+        </catValu>
+        <catStat type="freq">
+          117
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          01.08 &amp; 10.05 Tetanus
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          01.09 Pulmonary tuberculosis
+        </catValu>
+        <catStat type="freq">
+          3642
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          01.10 Pertussis
+        </catValu>
+        <catStat type="freq">
+          10
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          01.99 Other and unspecified infect dis
+        </catValu>
+        <catStat type="freq">
+          24
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          02.01 Oral neoplasms
+        </catValu>
+        <catStat type="freq">
+          11
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          02.02 Digestive neoplasms
+        </catValu>
+        <catStat type="freq">
+          191
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          02.03 Respiratory neoplasms
+        </catValu>
+        <catStat type="freq">
+          240
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          02.04 Breast neoplasms
+        </catValu>
+        <catStat type="freq">
+          32
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          02.05 Reproductive neoplasms F
+        </catValu>
+        <catStat type="freq">
+          105
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          02.06 Reproductive neoplasms M
+        </catValu>
+        <catStat type="freq">
+          23
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          02.99 Other and unspecified neoplasms
+        </catValu>
+        <catStat type="freq">
+          114
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          03.01 Severe anaemia
+        </catValu>
+        <catStat type="freq">
+          32
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          03.02 Severe malnutrition
+        </catValu>
+        <catStat type="freq">
+          67
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          03.03 Diabetes mellitus
+        </catValu>
+        <catStat type="freq">
+          228
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          04.01 Acute cardiac disease
+        </catValu>
+        <catStat type="freq">
+          64
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          04.02 Stroke
+        </catValu>
+        <catStat type="freq">
+          444
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          04.99 Other and unspecified cardiac dis
+        </catValu>
+        <catStat type="freq">
+          545
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          05.01 Chronic obstructive pulmonary dis
+        </catValu>
+        <catStat type="freq">
+          192
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          05.02 Asthma
+        </catValu>
+        <catStat type="freq">
+          115
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          06.01 Acute abdomen
+        </catValu>
+        <catStat type="freq">
+          144
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          06.02 Liver cirrhosis
+        </catValu>
+        <catStat type="freq">
+          31
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          07.01 Renal failure
+        </catValu>
+        <catStat type="freq">
+          69
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          08.01 Epilepsy
+        </catValu>
+        <catStat type="freq">
+          61
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          09.01 Ectopic pregnancy
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          09.02 Abortion-related death
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          09.03 Pregnancy-induced hypertension
+        </catValu>
+        <catStat type="freq">
+          16
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          09.04 Obstetric haemorrhage
+        </catValu>
+        <catStat type="freq">
+          9
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          09.06 Pregnancy-related sepsis
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          09.07 Anaemia of pregnancy
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          09.99 Other and unspecified maternal CoD
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          10.01 Prematurity
+        </catValu>
+        <catStat type="freq">
+          14
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          10.02 Birth asphyxia
+        </catValu>
+        <catStat type="freq">
+          39
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          10.03 Neonatal pneumonia
+        </catValu>
+        <catStat type="freq">
+          63
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          10.04 Neonatal sepsis
+        </catValu>
+        <catStat type="freq">
+          20
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          10.06 Congenital malformation
+        </catValu>
+        <catStat type="freq">
+          28
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          10.99 Other and unspecified neonatal CoD
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          12.01 Road traffic accident
+        </catValu>
+        <catStat type="freq">
+          221
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          12.03 Accid fall
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          12.04 Accid drowning and submersion
+        </catValu>
+        <catStat type="freq">
+          30
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          12.05 Accid expos to smoke fire &amp; flame
+        </catValu>
+        <catStat type="freq">
+          33
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          12.06 Contact with venomous plant/animal
+        </catValu>
+        <catStat type="freq">
+          9
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          12.07 Accid poisoning &amp; noxious subs
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          12.08 Intentional self-harm
+        </catValu>
+        <catStat type="freq">
+          88
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          12.09 Assault
+        </catValu>
+        <catStat type="freq">
+          425
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          12.99 Other and unspecified external CoD
+        </catValu>
+        <catStat type="freq">
+          14
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          98 Other and unspecified NCD
+        </catValu>
+        <catStat type="freq">
+          10
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          99 Cause of death unknown
+        </catValu>
+        <catStat type="freq">
+          1091
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V40" name="Cause2" files="F3" intrvl="discrete">
+      <location width="40"/>
+      <labl>
+        Cause2
+      </labl>
+      <sumStat type="vald">
+        638
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <txt>
+        One of the 3 possibles causes of death coded using the WHO list of verbal autopsy death causes.
+      </txt>
+      <catgry>
+        <catValu>
+          01.01 Sepsis (non-obstetric)
+        </catValu>
+        <catStat type="freq">
+          14
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          01.02 Acute resp infect incl pneumonia
+        </catValu>
+        <catStat type="freq">
+          42
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          01.03 HIV/AIDS related death
+        </catValu>
+        <catStat type="freq">
+          92
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          01.04 Diarrhoeal diseases
+        </catValu>
+        <catStat type="freq">
+          8
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          01.06 Measles
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          01.07 Meningitis and encephalitis
+        </catValu>
+        <catStat type="freq">
+          12
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          01.09 Pulmonary tuberculosis
+        </catValu>
+        <catStat type="freq">
+          72
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          01.10 Pertussis
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          01.99 Other and unspecified infect dis
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          02.01 Oral neoplasms
+        </catValu>
+        <catStat type="freq">
+          11
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          02.02 Digestive neoplasms
+        </catValu>
+        <catStat type="freq">
+          15
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          02.03 Respiratory neoplasms
+        </catValu>
+        <catStat type="freq">
+          32
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          02.04 Breast neoplasms
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          02.05 Reproductive neoplasms F
+        </catValu>
+        <catStat type="freq">
+          18
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          02.06 Reproductive neoplasms M
+        </catValu>
+        <catStat type="freq">
+          6
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          02.99 Other and unspecified neoplasms
+        </catValu>
+        <catStat type="freq">
+          30
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          03.01 Severe anaemia
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          03.02 Severe malnutrition
+        </catValu>
+        <catStat type="freq">
+          10
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          03.03 Diabetes mellitus
+        </catValu>
+        <catStat type="freq">
+          17
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          04.01 Acute cardiac disease
+        </catValu>
+        <catStat type="freq">
+          23
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          04.02 Stroke
+        </catValu>
+        <catStat type="freq">
+          28
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          04.99 Other and unspecified cardiac dis
+        </catValu>
+        <catStat type="freq">
+          54
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          05.01 Chronic obstructive pulmonary dis
+        </catValu>
+        <catStat type="freq">
+          17
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          05.02 Asthma
+        </catValu>
+        <catStat type="freq">
+          17
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          06.01 Acute abdomen
+        </catValu>
+        <catStat type="freq">
+          19
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          06.02 Liver cirrhosis
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          07.01 Renal failure
+        </catValu>
+        <catStat type="freq">
+          10
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          08.01 Epilepsy
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          09.04 Obstetric haemorrhage
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          09.07 Anaemia of pregnancy
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          09.99 Other and unspecified maternal CoD
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          10.01 Prematurity
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          10.03 Neonatal pneumonia
+        </catValu>
+        <catStat type="freq">
+          17
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          10.06 Congenital malformation
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          12.01 Road traffic accident
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          12.05 Accid expos to smoke fire &amp; flame
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          12.06 Contact with venomous plant/animal
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          12.07 Accid poisoning &amp; noxious subs
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          12.08 Intentional self-harm
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          12.09 Assault
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          12.99 Other and unspecified external CoD
+        </catValu>
+        <catStat type="freq">
+          6
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          98 Other and unspecified NCD
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V41" name="Cause3" files="F3" intrvl="discrete">
+      <location width="40"/>
+      <labl>
+        Cause3
+      </labl>
+      <sumStat type="vald">
+        28
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <txt>
+        One of the 3 possibles causes of death coded using the WHO list of verbal autopsy death causes.
+      </txt>
+      <catgry>
+        <catValu>
+          01.02 Acute resp infect incl pneumonia
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          01.03 HIV/AIDS related death
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          01.09 Pulmonary tuberculosis
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          02.03 Respiratory neoplasms
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          02.04 Breast neoplasms
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          02.05 Reproductive neoplasms F
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          02.06 Reproductive neoplasms M
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          04.01 Acute cardiac disease
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          04.02 Stroke
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          04.99 Other and unspecified cardiac dis
+        </catValu>
+        <catStat type="freq">
+          8
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          05.01 Chronic obstructive pulmonary dis
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          06.01 Acute abdomen
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          06.02 Liver cirrhosis
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          10.02 Birth asphyxia
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          10.04 Neonatal sepsis
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V42" name="Likelihood1" files="F3" dcml="0" intrvl="contin">
+      <labl>
+        Likelihood1
+      </labl>
+      <valrng>
+        <range min="40" max="100"/>
+      </valrng>
+      <sumStat type="vald">
+        11481
+      </sumStat>
+      <sumStat type="invd">
+        409635
+      </sumStat>
+      <sumStat type="min">
+        40
+      </sumStat>
+      <sumStat type="max">
+        100
+      </sumStat>
+      <sumStat type="mean">
+        93.873
+      </sumStat>
+      <sumStat type="stdev">
+        13.221
+      </sumStat>
+      <txt>
+        Likelihood value associated with the Cause1 of death
+      </txt>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V43" name="Likelihood2" files="F3" dcml="0" intrvl="contin">
+      <labl>
+        Likelihood2
+      </labl>
+      <valrng>
+        <range min="21" max="50"/>
+      </valrng>
+      <sumStat type="vald">
+        638
+      </sumStat>
+      <sumStat type="invd">
+        420478
+      </sumStat>
+      <sumStat type="min">
+        21
+      </sumStat>
+      <sumStat type="max">
+        50
+      </sumStat>
+      <sumStat type="mean">
+        37.279
+      </sumStat>
+      <sumStat type="stdev">
+        7.14
+      </sumStat>
+      <txt>
+        Likelihood value associated with the Cause2 of death
+      </txt>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V44" name="Likelihood3" files="F3" dcml="0" intrvl="discrete">
+      <labl>
+        Likelihood3
+      </labl>
+      <valrng>
+        <range min="20" max="28"/>
+      </valrng>
+      <sumStat type="vald">
+        28
+      </sumStat>
+      <sumStat type="invd">
+        421088
+      </sumStat>
+      <txt>
+        Likelihood value associated with the Cause3 of death
+      </txt>
+      <catgry>
+        <catValu>
+          20
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          21
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          22
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          23
+        </catValu>
+        <catStat type="freq">
+          6
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          24
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          25
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          26
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          27
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          28
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          421088
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V45" name="EventCount" files="F3" dcml="0" intrvl="discrete">
+      <labl>
+        Event count
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        421116
+      </sumStat>
+      <txt>
+        The total number of events associated with this individual in this data set
+      </txt>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          421116
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V53" name="EventCode" files="F5" intrvl="discrete">
+      <location width="3"/>
+      <labl>
+        Event Code
+      </labl>
+      <sumStat type="vald">
+        11
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <txt>
+        A code identifying the type of event that has occured
+      </txt>
+      <catgry>
+        <catValu>
+          BTH
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          DLV
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          DTH
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          ENT
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          ENU
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          EXT
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          IMG
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          OBE
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          OBL
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          OBS
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          OMG
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V52" name="Event" files="F5" intrvl="discrete">
+      <location width="16"/>
+      <labl>
+        Event
+      </labl>
+      <sumStat type="vald">
+        11
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <txt>
+        The short description of the event type.
+      </txt>
+      <catgry>
+        <catValu>
+          Birth
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          Death
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          Delivery
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          Enumeration
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          In-migration
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          Last observation
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          Location entry
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          Location exit
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          Observation
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          Observation end
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          Out-migration
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V54" name="Definition" files="F5" intrvl="discrete">
+      <location width="255"/>
+      <labl>
+        Definition
+      </labl>
+      <sumStat type="vald">
+        11
+      </sumStat>
+      <txt>
+        A longer description of the event type.
+      </txt>
+      <catgry>
+        <catValu>
+          An event indicating the last point in time on which this individual was observed to be present and under surveillance. Event date equals observation date in this instance. Normally there should be no individuals with this event as their last event if the right censoring date is prior to the start of the last complete census round
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          An event inserted when a data set is right censored at an arbitrary date and this individual remained under surveillance beyond this date. The right censor date is the date of this event
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          Starting event for all individuals present at the baseline census of the surveillance area. It is the date on which the individual was first observed to be present in the surveillance area during the baseline census
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          The birth of an individual to a resident female
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          The death of the individual under surveillance. The date of death is the event date
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          The event of a pregnancy end after 28 weeks of gestation, which may or may not result in the birth of one or more individuals (represented in this dataset by a BTH event linked to this delivery event)
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          The event of leaving a residential location within the surveillance area to take up residence in another residential location within the surveillance area
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          The event of migrating into the surveillance area
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          The event of migrating out of the surveillance area
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          The event of taking up residence in a residential location within the surveillance area following a location exit event. Note that location exit and entry are actually two parts of the same action of changing residential location and as such happen on the same event date
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          Used to record characteristics of individuals under surveillance valid at the time of the observation. Could be used to record aspects such as educational attainment, employment status or anthropometry measures. Specific examples of this event are not part of the minimum core individual dataset, but are specified to allow for site or working group needs
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    </var>
+  </dataDscr>
+</codeBook>

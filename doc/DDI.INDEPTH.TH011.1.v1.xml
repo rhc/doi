@@ -1,0 +1,717 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codeBook version="1.2.2" ID="INDEPTH.TH011.1.v1" xml-lang="en" xmlns="http://www.icpsr.umich.edu/DDI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.icpsr.umich.edu/DDI http://www.icpsr.umich.edu/DDI/Version1-2-2.xsd">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>
+          Kanchanaburi Core Dataset 2000-2009
+        </titl>
+        <IDNo>
+          DDI.INDEPTH.TH011.1.v1
+        </IDNo>
+      </titlStmt>
+      <prodStmt>
+        <producer abbr="iS2TT" affiliation="INDEPTH Network" role="Documentation of the study">
+          iSHARE2 Technical Team
+        </producer>
+        <producer abbr="int.indepth" affiliation="INDEPTH Network" role="agency">
+          INDEPTH Network
+        </producer>
+        <producer abbr="JR" affiliation="TH011" role="DDI author">
+          Jongjit Rittirong
+        </producer>
+        <producer abbr="PB" affiliation="TH011" role="DDI author">
+          Porta Boonyatearana
+        </producer>
+        <prodDate date="2013-03-01">
+          2013-03-01
+        </prodDate>
+        <software version="4.0.8" date="2012-05-14">
+          Nesstar Publisher
+        </software>
+      </prodStmt>
+      <verStmt>
+        <version>
+          Version 1 (March 2013)
+        </version>
+        <notes>
+          Version 1 : Initial version
+        </notes>
+      </verStmt>
+      <holdings URI="http://www.indepth-ishare.org"/>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>
+          Kanchanaburi INDEPTH Core Dataset 2000-2009 (Residents only)
+        </titl>
+        <IDNo>
+          INDEPTH.TH011.1.v1
+        </IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="Kanchanaburi Demographic Surveillance System (TH011)">
+          Sureeporn Punpuing
+        </AuthEnty>
+        <AuthEnty affiliation="Kanchanaburi Demographic Surveillance System (TH011)">
+          Aree Jampaklay
+        </AuthEnty>
+        <othId role="Field manager" affiliation="Kanchanaburi Demographic Surveillance System ">
+          <p>
+            Wannee Hutaphat
+          </p>
+        </othId>
+        <othId role="Data manager" affiliation="Kanchanaburi Demographic Surveillance System (TH011)">
+          <p>
+            Jongjit Rittirong
+          </p>
+        </othId>
+      </rspStmt>
+      <prodStmt>
+        <software version="4.0.8" date="2012-05-14">
+          Nesstar Publisher
+        </software>
+        <fundAg abbr="WT">
+          Wellcome Trust
+        </fundAg>
+      </prodStmt>
+      <distStmt>
+        <contact affiliation="Kanchanaburi Demographic Surveillance System (TH011)" URI="http://www.indepth-ishare.org/iSHARE2/index.php/howtouse" email="jongjit.rit@mahidol.ac.th">
+          Jongjit Rittirong
+        </contact>
+      </distStmt>
+      <serStmt>
+        <serName>
+          Demographic Surveillance
+        </serName>
+        <serInfo>
+          This dataset contains round 1-5 of demographic surveillance data (2000-2004) and the follow up in 2005, 2007, and 2009.
+        </serInfo>
+      </serStmt>
+      <verStmt>
+        <version date="2013-02-22">
+          v1: Original version extracted on February 22, 2013
+        </version>
+        <notes>
+          v1 : Original version
+        </notes>
+      </verStmt>
+    </citation>
+    <stdyInfo>
+      <subject>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Demography [N01.224]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Age Distribution [N01.224.033]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Emigration and Immigration [N01.224.625.350]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Residential Mobility [N01.224.791.700]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Sex Distribution [N01.224.803]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Vital Statistics [N01.224.935]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Life Expectancy [N01.224.935.464]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Mortality [N01.224.935.698]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Cause of Death [N01.224.935.698.100]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Birth Rate [N01.224.935.849.500]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Rural Population [N01.600.725]
+        </topcClas>
+        <topcClas vocab="MeSH" vocabURI="http://www.ncbi.nlm.nih.gov/mesh">
+          Survival Analysis [N06.850.520.830.998]
+        </topcClas>
+      </subject>
+      <abstract>
+        <![CDATA[The Kanchanaburi Project comprises a study area of 100 villages/census blocks selected from five strata; urban/semi-urban, rice, plantation, uplands, and mixed economy. There are 20 villages/census blocks in each stratum. Three sets of data collection instruments,community, household, and individual, were used in the first annual enumeration of thefield site communities. This enumeration was conducted between 1st July and 15th August 2000.
+
+The enumeration listed 11,612 households in the study area with a population of 42,614 (20,426 males and 22,188 females). The majority of households own land, which they primarily use for agricultural purpose, mostly growing rice or cash crops. Migrant remittances were more likely to be received by households in rural areas than urban areas. A larger proportion of rural than urban households reported debt, although the amount of average debt was higher for urban households. 
+
+Men tend to get married at later ages than did women, and urban residents married at later ages than did rural residents. Fertility in urban areas was also lower than in rural areas. However, fertility patterns were similar for both areas. Most people knew of at least one contraceptive method. Females were more knowledgeable about contraception
+than males. The average contraceptive prevalence rate was 70 percent.
+
+Colds were the most common sickness reported in the month prior to the interview.Consumption of addictive substances such as cigarettes, beer, liquor, and tonic drinks was not common, with the exception of the uplands population, many of whom were reported as regular smokers. 
+
+Mortality levels and patterns in the field site population were similar to that found in the
+general Thai population, i.e., males had higher mortality than females and the mortality pattern had a J-shape. Main
+causes of deaths were sickness, accidents, and old age. Nine percent of deaths were not registered.
+
+Among women aged 15 – 59 years, only 15 percent joined community development groups. The majority of the members were middle aged, had primary education, and
+were currently married. Budget, lack of participation of members, and lack of management skills were the most cited problems of community development groups.]]>
+      </abstract>
+      <sumDscr>
+        <timePrd date="2000-01-01" event="start" cycle="Release coverage"/>
+        <timePrd date="2010-08-31" event="end" cycle="Release coverage"/>
+        <collDate date="2000-07-01" event="start" cycle="Round 1"/>
+        <collDate date="2000-08-31" event="end" cycle="Round 1"/>
+        <collDate date="2001-07-01" event="start" cycle="Round 2"/>
+        <collDate date="2001-08-31" event="end" cycle="Round 2"/>
+        <collDate date="2002-07-01" event="start" cycle="Round 3 "/>
+        <collDate date="2002-08-31" event="end" cycle="Round 3 "/>
+        <collDate date="2003-07-01" event="start" cycle="Round 4"/>
+        <collDate date="2003-08-31" event="end" cycle="Round 4"/>
+        <collDate date="2004-07-01" event="start" cycle="Round 5"/>
+        <collDate date="2004-08-31" event="end" cycle="Round 5"/>
+        <collDate date="2005-07-01" event="start" cycle="Round 6"/>
+        <collDate date="2005-08-31" event="end" cycle="Round 6"/>
+        <collDate date="2007-07-01" event="start" cycle="Round 7"/>
+        <collDate date="2007-08-31" event="end" cycle="Round 7"/>
+        <collDate date="2009-07-01" event="start" cycle="Round 8"/>
+        <collDate date="2009-08-31" event="end" cycle="Round 8"/>
+        <nation abbr="TH">
+          Thailand
+        </nation>
+        <geogCover>
+          <![CDATA[Kanchanaburi is located120 kilometers west of Bangkok between 13° and 15° north latitude and 98° and 100° east longitude. Kanchanaburi is bordered in the northwest and the west by the neighboring country of Myanmar, in the north and northeast
+by Tak and Utaithani provinces, in the east by Supanburi province, and in thesouth by Nakhonpathom and Ratchaburi provinces
+
+Kanchanaburi has an area of about 19,483 square kilometers 
+
+The villages for the Kanchanaburi project was selected using a stratified systematic design. The primary selection units for rural areas were villages and for urban areas were census blocks. 
+
+The study area was divided into five strata, which were categorised according to the main occupation of the population and land use patterns. These strata are:1)urban/semi-urban (industrialised), 2) rice producing, 3) plantations, 4) uplands areas, and 5) mixed economy.]]>
+        </geogCover>
+        <anlyUnit>
+          Individual
+        </anlyUnit>
+        <universe>
+          <![CDATA[This project has as its main aim the establishment of a field research and training centre dedicated to the monitoring of population change and the evaluation of the effects of intervention-based research. The study units are 100 villages/ census blocks distributed
+throughout Kanchanaburi province.
+
+The Institute for Population and Social Research (IPSR) collected, on an annual basis , data using a population census for every household and interviewing each individual aged 15 years and over in each village/block that has been selected in the study area. The
+data which have been and will continue to be collected includes population, economic, social and health related information. For data
+collection and comparative purposes, each household from which data are collected will carry a code; households without occupants are classified as “blank”.]]>
+        </universe>
+        <dataKind>
+          Event history data
+        </dataKind>
+      </sumDscr>
+      <notes>
+        <![CDATA[This study represents only a portion of the total data associated with the complete Kanchanaburi demographic surveilance as described in the study abstract.
+
+It specifically only includes the events defining the resident exposure of individuals under surveillance as well as the delivery events of resident women. Each type of event contains minimal attributes describing the event:
+
+Attributes common to each event:
+
+Event Type
+
+Event Date
+
+Observation date
+
+Migration
+
+Origin & Destination
+
+Death]]>
+      </notes>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <dataCollector abbr="TH011" affiliation="Institute for Population and Social Research, Mahidol University">
+          Kanchanaburi Demographic Surveillance System
+        </dataCollector>
+        <frequenc>
+          <![CDATA[This dataset contains rounds 1 to 8 of demographic surveillance data covering the period from 1 July 2000 to 31 June 2010. 
+The first 6 rounds during 2000-2005 of data collection took place annually. The data collection in 2007 and 2009 were conducted every other years.]]>
+        </frequenc>
+        <sampProc>
+          <![CDATA[This dataset is not based on a sample but contains information from the complete demographic surveillance area.
+
+
+
+Reponse units (households) by year:
+
+Year         Households
+
+
+2000	11612	
+
+2001	12657	
+
+2002	12680	
+
+2003	12356	
+
+2004	12462	
+
+2005	12440	
+
+2007	12304	
+
+2009	12074]]>
+        </sampProc>
+        <deviat>
+          None
+        </deviat>
+        <collMode>
+          Face-to-face [f2f]
+        </collMode>
+        <resInstru>
+          <![CDATA[The method used for data collection was structured interviews and entailed the use of three sets of questionnaires: village, household and individual. The Village questionnaire consisted of seven sections: general village data, agriculture, occupation, infrastructure and transportation, health, environment and community development. The Household questionnaire
+consisted of five sections: basic data on the household occupants, mortality, household characteristics, environment, and
+government policy. The interviewers observed household characteristics and recorded them in an observation form.]]>
+        </resInstru>
+        <sources/>
+        <collSitu>
+          <![CDATA[The Individual questionnaire was used for respondents aged 15 and over. It consisted of seven sections: personal data, migration,
+fertility, health, community development, aging and condom use. 
+
+Approximately, there were 100 people in the data collection team, including 90 interviewers and 10 field supervisors. The process of recruiting field supervisors and interviewers was divided into two steps. The first step entailed screening 10 supervisors. These field supervisors were trained about 10 days in May. After training, the field supervisors went to sample villages for mapping sample villages and listing households overa two-week period in the same month. In the second step about 10 days in June, the interviewers were selected and trained. Concepts and definitions of each question in the questionnaires were explained. The interviewers learned about interviewing techniques and practiced interviewing. Ten teams were responsible for collecting the data. On average, each team consisted of one field supervisor and six to ten interviewers, with the number depending upon the number of villages and area to be covered. Each team arrived in the first village on June 30th and began data collection on July 1st each round.]]>
+        </collSitu>
+        <weight>
+          Not applicable
+        </weight>
+        <cleanOps>
+          <![CDATA[On data entry data consistency and plausibility were checked by 455 data validation rules at database level. If data validaton failure was due to a data collection error, the questionnaire was referred back to the field for revisit and correction. If the error was due to data inconsistencies that could not be directly traced to a data collection error, the record was referred to the data quality team under the supervision of the senior database scientist. This could request further field level investigation by a team of trackers or could correct the inconsistency directly at database level.
+
+
+
+No imputations were done on the resulting micro data set, except for:
+
+
+
+a. If an out-migration (OMG) event is followed by a homestead entry event (ENT) and the gap between OMG event and ENT event is greater than 180 days, the ENT event was changed to an in-migration event (IMG).
+
+b.  If an out-migration (OMG) event is followed by a homestead entry event (ENT) and the gap between OMG event and ENT event is less than 180 days, the OMG event was changed to an homestead exit event (EXT) and the ENT event date changed to the day following the original OMG event.
+
+c. If a homestead exit event (EXT) is followed by an in-migration event (IMG) and the gap between the EXT event and the IMG event is greater than 180 days, the EXT event was changed to an out-migration event (OMG).
+
+d. If a homestead exit event (EXT) is followed by an in-migration event (IMG) and the gap between the EXT event and the IMG event is less than 180 days, the IMG event was changed to an homestead entry event (ENT) with a date equal to the day following the EXT event.
+
+e. If the last recorded event for an individual is homestead exit (EXT) and this event is more than 180 days prior to the end of the surveillance period, then the EXT event is changed to an out-migration event (OMG)]]>
+        </cleanOps>
+      </dataColl>
+      <notes>
+        <![CDATA[[2004 Report]
+
+In order to evaluate the quality of data, the opinions of interviewers were recorded at the end of each household and individual interview. These opinions included the interview setting, presence of a third person or persons, interview involvement of a third person, co-operation and reaction of interviewee, and interviewer’s view of the overall quality of data. 
+
+Overall, opinions were similar for both questionnaires. Most interviewers thought that the quality of data ranged from good to excellent. Only eight percent of interviewers thought the data were of average quality. 
+
+The interview setting for the household interview was judged to be private and quiet by 49 percent of interviews, and noisy but private for 46 percent of interviews. For individual interviews, 55 percent of interviewers thought that the interview setting was noisy but private and 40 percent reported that the setting was private and quiet. Only in 5 percent of interviews with households as well as five percent of interviews with individuals did the interviewers report that the setting was not private and that this affect
+ed the interview. However, less than one percent reported that they had to stop the interview due to the setting.
+
+Having a third party present during the interview was common. During the household and individual interviews, about one-half of interviews were completed in the presence of a third party. However, that person(s) were mainly other household members. Most of third parties present at interviews caused no interruption. 
+
+Almost all of respondents provided good to excellent co-operation. In less than one percent of interviews was it reported that co-operation was poor, while in two percent of interviews the interviewer reported moderate co-operation. More than 90 percent of respondents were reported to have enjoyed the interview. Less than one percent was reported to be unhappy about the interview on some questions.In conclusion, it can be said that the quality of data is good to very good. This is due, in part, to three pre-tests of the questionnaire. The lengthy recruitment process, as well as detailed training sessions for supervisors and interviewers, were other reasons contributing to good data quality.]]>
+      </notes>
+      <anlyInfo>
+        <respRate>
+          <![CDATA[Household response rates are as follows (assuming that if a household has not responded for 2 years following the last recorded visit to that household, that the household is lost to follow-up and no longer part of the response rate denominator)
+
+
+
+Year Response Rate	
+
+2000 99%	
+
+2001 90%	
+
+2002 92%	
+
+2003 96%	
+
+2004 94%	
+
+2005 70%	
+
+2007 65%	
+
+2009 61%]]>
+        </respRate>
+        <EstSmpErr>
+          Not applicable
+        </EstSmpErr>
+      </anlyInfo>
+    </method>
+    <dataAccs>
+      <setAvail>
+        <origArch>
+          Kanchanaburi (TH011)
+        </origArch>
+      </setAvail>
+      <useStmt>
+        <confDec required="yes">
+          This data is anonymised and no confidentiality agreement in addition to the general data use agreement is required
+        </confDec>
+        <contact affiliation="INDEPTH" email="help-data@indepth-network.org">
+          iSHARE2 Help desk
+        </contact>
+        <citReq>
+          <![CDATA[Any use of this dataset must cite the digital object identifier (doi) associated with this dataset. Using the following form:
+
+
+"Kanchanaburi INDEPTH Core Dataset 2000-2009 (Residents only). Jan 2010. Provided by the INDEPTH Network Data Repository. www.indepth-network.org <http://www.indepth-network.org>. doi:10.7796/ INDEPTH.TH011.1.v1"]]>
+        </citReq>
+        <conditions>
+          <![CDATA[This data is made available for licensed access under the following conditions: 
+
+
+
+1. Data and other material provided by INDEPTH will not be redistributed or sold to other individuals, institutions or organisations without INDEPTH's written agreement. 
+
+
+
+2. In the case of multi-centre datasets, data originating from a single contributing member centre of the INDEPTH Network may not be analysed or reported on in isolation without the express permission of the member centre concerned.  
+
+
+
+3. No attempt will be made to re-identify respondents, and there will be no use of the identity of any person or establishment discovered inadvertently. Any such discovery will be reported immediately to INDEPTH. 
+
+
+
+4. No attempt will be made to produce links between datasets provided by INDEPTH or between INDEPTH data and other datasets that could identify individuals. 
+
+
+
+5. Any books, articles, conference papers, theses, dissertations, reports or other publications employing data obtained from INDEPTH will cite the source, in line with the citation requirement provided with the dataset. 
+
+
+
+6. An electronic copy of all publications based on the requested data will be sent to INDEPTH. 
+
+
+
+7. The original collector of the data, INDEPTH, and the relevant funding agencies bear no responsibility for the data's use or interpretation or inferences based upon it.]]>
+        </conditions>
+        <disclaimer>
+          The user of the data acknowledges that the original collector of the data, INDEPTH, and the relevant funding agencies bear no responsibility for the data's use or interpretation or inferences based upon it.
+        </disclaimer>
+      </useStmt>
+    </dataAccs>
+  </stdyDscr>
+  <fileDscr ID="F1" URI="INDEPTH.TH011.1.v1.Nesstar?Index=0&amp;Name=TH011.1.v1">
+    <fileTxt>
+      <fileName>
+        TH011.1.NSDstat
+      </fileName>
+      <dimensns>
+        <caseQnty>
+          0
+        </caseQnty>
+        <varQnty>
+          20
+        </varQnty>
+      </dimensns>
+      <fileType>
+        Nesstar 200801
+      </fileType>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr>
+    <varGrp ID="VG2" type="subject">
+      <labl>
+        Center Related Variables
+      </labl>
+      <txt>
+        This group has identfier for country and center
+      </txt>
+    </varGrp>
+    <varGrp ID="VG4" type="subject">
+      <labl>
+        Individual Related Variables
+      </labl>
+      <txt>
+        This group has identifier for individual
+      </txt>
+    </varGrp>
+    <varGrp ID="VG5" type="subject" varGrp="VG6 VG7">
+      <labl>
+        Event Related Variables
+      </labl>
+    </varGrp>
+    <varGrp ID="VG6" type="subject">
+      <labl>
+        Birth Related Variables
+      </labl>
+    </varGrp>
+    <varGrp ID="VG7" type="subject">
+      <labl>
+        Death Related Variables
+      </labl>
+    </varGrp>
+    <var ID="V1" name="RecNr" files="F1" dcml="0" intrvl="contin">
+      <labl>
+        RecNr
+      </labl>
+      <valrng>
+        <range UNITS="REAL" min="1" max="120640"/>
+      </valrng>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V2" name="CountryId" files="F1" dcml="0" intrvl="discrete">
+      <labl>
+        CountryId
+      </labl>
+      <valrng>
+        <range UNITS="REAL" min="764" max="764"/>
+      </valrng>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V3" name="CentreId" files="F1" intrvl="discrete">
+      <location width="5" RecSegNo="1"/>
+      <labl>
+        CentreId
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V4" name="IndividualId" files="F1" dcml="0" intrvl="contin">
+      <labl>
+        IndividualId
+      </labl>
+      <valrng>
+        <range UNITS="REAL" min="1" max="60260"/>
+      </valrng>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V5" name="Sex" files="F1" dcml="0" intrvl="discrete">
+      <labl>
+        Sex
+      </labl>
+      <valrng>
+        <range UNITS="REAL" min="1" max="2"/>
+      </valrng>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V6" name="DoB" files="F1" intrvl="discrete">
+      <location width="10" RecSegNo="1"/>
+      <labl>
+        DoB
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V7" name="EventCount" files="F1" dcml="0" intrvl="discrete">
+      <labl>
+        EventCount
+      </labl>
+      <valrng>
+        <range UNITS="REAL" min="2" max="4"/>
+      </valrng>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V8" name="EventNr" files="F1" dcml="0" intrvl="discrete">
+      <labl>
+        EventNr
+      </labl>
+      <valrng>
+        <range UNITS="REAL" min="1" max="4"/>
+      </valrng>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V9" name="EventCode" files="F1" intrvl="discrete">
+      <location width="3" RecSegNo="1"/>
+      <labl>
+        EventCode
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V10" name="EventDate" files="F1" intrvl="discrete">
+      <location width="10" RecSegNo="1"/>
+      <labl>
+        EventDate
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V11" name="ObservationDate" files="F1" intrvl="discrete">
+      <location width="10" RecSegNo="1"/>
+      <labl>
+        ObservationDate
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V12" name="LocationId" files="F1" dcml="0" intrvl="contin">
+      <labl>
+        LocationId
+      </labl>
+      <valrng>
+        <range UNITS="REAL" min="1" max="15261"/>
+      </valrng>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V13" name="MotherId" files="F1" dcml="0" intrvl="discrete">
+      <labl>
+        MotherId
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V14" name="DeliveryId" files="F1" dcml="0" intrvl="discrete">
+      <labl>
+        DeliveryId
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V15" name="Cause1" files="F1" dcml="0" intrvl="discrete">
+      <labl>
+        Cause1
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V16" name="Cause2" files="F1" dcml="0" intrvl="discrete">
+      <labl>
+        Cause2
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V17" name="Cause3" files="F1" dcml="0" intrvl="discrete">
+      <labl>
+        Cause3
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V18" name="Likelihood1" files="F1" dcml="0" intrvl="discrete">
+      <labl>
+        Likelihood1
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V19" name="Likelihood2" files="F1" dcml="0" intrvl="discrete">
+      <labl>
+        Likelihood2
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V20" name="Likelihood3" files="F1" dcml="0" intrvl="discrete">
+      <labl>
+        Likelihood3
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+  </dataDscr>
+</codeBook>

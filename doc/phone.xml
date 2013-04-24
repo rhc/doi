@@ -1,0 +1,14 @@
+<dl>
+    <dt>
+        <a href="someUrl1">The news item1 title</a>
+    </dt>
+    <dd>
+      The content of the news item1
+  </dd>
+    <dt>
+        <a href="someUrl2">The news item2 title</a>
+    </dt>
+    <dd>
+      The content of the news item2
+ </dd>
+</dl>
