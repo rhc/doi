@@ -1,0 +1,10 @@
+= DDI to DOI
+Christian Kyony <ckyony@africacentre.ac.za>
+v 0.1, 06 May 2013
+
+== Purpose
+
+ddi2doi is a script to convert a DDI dataset documentation 
+into a metadata XML file needed to register a DOI on the http://da-ra.de/en web site.
+
+
