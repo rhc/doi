@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<study xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddi="http://www.icpsr.umich.edu/DDI" xsi:noNamespaceSchemaLocation=" dara_v2.2.1_de_en_19112012.xsd">
+  <resourceType>2</resourceType>
+  <studyIdentifier>
+    <identifier>INDEPTH.VN021.1.v2</identifier>
+    <currentVersion>2</currentVersion>
+  </studyIdentifier>
+  <titles>
+    <title>
+      <language>en</language>
+      <titleName>
+           Chilililab  Surveillance Dataset 2004-2010
+        </titleName>
+    </title>
+  </titles>
+  <principalInvestigators>
+    <principalInvestigator>
+      <person>
+        <firstName>Tran</firstName>
+        <middleName/>
+        <lastName>Huu Bich</lastName>
+      </person>
+    </principalInvestigator>
+    <principalInvestigator>
+      <person>
+        <firstName>Bui</firstName>
+        <middleName/>
+        <lastName>Thi Thu Ha</lastName>
+      </person>
+    </principalInvestigator>
+    <principalInvestigator>
+      <person>
+        <firstName>Le</firstName>
+        <middleName/>
+        <lastName>Thi Vui</lastName>
+      </person>
+    </principalInvestigator>
+    <principalInvestigator>
+      <person>
+        <firstName>Pham</firstName>
+        <middleName/>
+        <lastName>Viet Cuong</lastName>
+      </person>
+    </principalInvestigator>
+    <principalInvestigator>
+      <person>
+        <firstName>Bui</firstName>
+        <middleName/>
+        <lastName>Tu Quyen</lastName>
+      </person>
+    </principalInvestigator>
+    <principalInvestigator>
+      <person>
+        <firstName>La</firstName>
+        <middleName/>
+        <lastName>Ngoc Quang</lastName>
+      </person>
+    </principalInvestigator>
+    <principalInvestigator>
+      <person>
+        <firstName>Nguyen</firstName>
+        <middleName/>
+        <lastName>Thanh Nghi</lastName>
+      </person>
+    </principalInvestigator>
+    <principalInvestigator>
+      <person>
+        <firstName>Duong</firstName>
+        <middleName/>
+        <lastName>Kim Tuan</lastName>
+      </person>
+    </principalInvestigator>
+    <principalInvestigator>
+      <person>
+        <firstName>Le</firstName>
+        <middleName/>
+        <lastName>Minh Thi</lastName>
+      </person>
+    </principalInvestigator>
+    <principalInvestigator>
+      <person>
+        <firstName>Truong</firstName>
+        <middleName/>
+        <lastName>Quang Tien</lastName>
+      </person>
+    </principalInvestigator>
+    <principalInvestigator>
+      <institution>
+        <institutionName>
+          <language>en</language>
+          <name>INDEPTH network </name>
+        </institutionName>
+      </institution>
+    </principalInvestigator>
+  </principalInvestigators>
+  <dataURLs>
+    <dataURL>
+        http://www.indepth-network.org
+      </dataURL>
+  </dataURLs>
+  <doiProposal>10.5072/INDEPTH.VN021.1.v2</doiProposal>
+  <publicationDate>
+    <date>2013-01-23</date>
+  </publicationDate>
+  <availability>
+    <availabilityControlled>3</availabilityControlled>
+  </availability>
+</study>

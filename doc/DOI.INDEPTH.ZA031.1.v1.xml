@@ -2,16 +2,32 @@
 <study xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddi="http://www.icpsr.umich.edu/DDI" xsi:noNamespaceSchemaLocation=" dara_v2.2.1_de_en_19112012.xsd">
   <resourceType>2</resourceType>
   <studyIdentifier>
-    <identifier/>
-    <currentVersion/>
+    <identifier>INDEPTH.ZA031.1.v1</identifier>
+    <currentVersion>1</currentVersion>
   </studyIdentifier>
   <titles>
     <title>
       <language>en</language>
-      <titleName/>
+      <titleName>
+          Africa Centre INDEPTH Core Dataset 2000-2010 (Residents only)
+        </titleName>
     </title>
   </titles>
   <principalInvestigators>
+    <principalInvestigator>
+      <person>
+        <firstName>Marie-Louise</firstName>
+        <middleName/>
+        <lastName>Newell</lastName>
+      </person>
+    </principalInvestigator>
+    <principalInvestigator>
+      <person>
+        <firstName>Kobus</firstName>
+        <middleName/>
+        <lastName>Herbst</lastName>
+      </person>
+    </principalInvestigator>
     <principalInvestigator>
       <institution>
         <institutionName>
@@ -26,9 +42,9 @@
         http://www.indepth-network.org
       </dataURL>
   </dataURLs>
-  <doiProposal>10.5072/</doiProposal>
+  <doiProposal>10.5072/INDEPTH.ZA031.1.v1</doiProposal>
   <publicationDate>
-    <date/>
+    <date>2012-07-04</date>
   </publicationDate>
   <availability>
     <availabilityControlled>3</availabilityControlled>

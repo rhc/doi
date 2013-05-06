@@ -2,16 +2,32 @@
 <study xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddi="http://www.icpsr.umich.edu/DDI" xsi:noNamespaceSchemaLocation=" dara_v2.2.1_de_en_19112012.xsd">
   <resourceType>2</resourceType>
   <studyIdentifier>
-    <identifier/>
-    <currentVersion/>
+    <identifier>INDEPTH.KE031.1.v3</identifier>
+    <currentVersion>3</currentVersion>
   </studyIdentifier>
   <titles>
     <title>
       <language>en</language>
-      <titleName/>
+      <titleName>
+          Nairobi Urban Health and Demographic Surveillance System 2002-2010
+        </titleName>
     </title>
   </titles>
   <principalInvestigators>
+    <principalInvestigator>
+      <person>
+        <firstName>Dr.Alex</firstName>
+        <middleName/>
+        <lastName>Ezeh</lastName>
+      </person>
+    </principalInvestigator>
+    <principalInvestigator>
+      <person>
+        <firstName>Dr.Donatien</firstName>
+        <middleName/>
+        <lastName>Beguy</lastName>
+      </person>
+    </principalInvestigator>
     <principalInvestigator>
       <institution>
         <institutionName>
@@ -26,9 +42,9 @@
         http://www.indepth-network.org
       </dataURL>
   </dataURLs>
-  <doiProposal>10.5072/</doiProposal>
+  <doiProposal>10.5072/INDEPTH.KE031.1.v3</doiProposal>
   <publicationDate>
-    <date/>
+    <date>2013-02-19</date>
   </publicationDate>
   <availability>
     <availabilityControlled>3</availabilityControlled>
