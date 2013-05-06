@@ -8,3 +8,20 @@ ddi2doi is a script to convert a DDI dataset documentation
 into a metadata XML file needed to register a DOI on the http://da-ra.de/en web site.
 
 
+== Installation 
+
+. Download the doi.zip file
+. Unzip the file
+. Change to the directory 
+
+
+== Usage 
+
+------
+ddi2doi /path/to/DDI.INDEPTH.CCnnn.v.vV.xml
+------
+
+The  */path/to/DDI.INDEPTH.CCnn.v.vV.xml* file is created.
+
+
+
